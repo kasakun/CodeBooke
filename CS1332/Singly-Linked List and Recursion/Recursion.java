@@ -28,6 +28,11 @@ public class Recursion {
      * @throws IllegalArgumentException if text is null
      */
     public boolean isPalindrome(String text) {
+        if (text == null)
+            throw new java.lang.IllegalArgumentException("Input text is null!");
+        else {
+            return isPalindromeHelper(text);
+        }
     }
 
     /**
@@ -36,6 +41,13 @@ public class Recursion {
      * @return If the passed in text is a palindrome
      */
     private boolean isPalindromeHelper(String text) {
+        if (text.length() == 0 || text.length() == 1)
+            return true;
+        else if (text.charAt(0) == text.charAt(text.length() - 1)) {
+            return isPalindrome(text.substring(1, text.length() - 1));
+        }
+        else 
+            return false;
     }
 
     /**
@@ -57,7 +69,7 @@ public class Recursion {
      * x or y is negative
      */
     public int gcd(int x, int y) {
-        
+        return gcdHelper(x, y);
     }
 
     /**
@@ -67,5 +79,15 @@ public class Recursion {
      * @return the gcd of x and y, or -1 if either are negative
      */
     private int gcdHelper(int x, int y) {
+        if (x < 0 || y < 0)
+            return -1;
+        else if (x == y)
+            return x;
+        else if (x == 0 || y ==0)
+            return (x == 0) ? y : x;
+        else if (x > y)
+            return gcd(x - y, y);
+        else 
+            return gcd(x, y - x);
     }
 }

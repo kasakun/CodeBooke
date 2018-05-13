@@ -34,12 +34,18 @@ public class SinglyLinkedList<T extends Comparable<? super T>> implements
         if (index < 0 || index > size)
             throw new java.lang.IndexOutOfBoundsException("The index is out of bound!");
         
-        SLLNode temp = head;
-        for (int i = 0; i < index; ++i) 
-            temp = temp.getNext();
-        temp = new SLLNode<T>(data, temp);
-
-        ++size;
+        if (index == 0)
+            addToFront(data);
+        else if (index == size)
+            addToBack(data);
+        else {
+            SLLNode<T> temp = head;
+            for (int i = 0; i < index - 1; ++i) 
+                temp = temp.getNext();
+            temp.setNext(new SLLNode<T>(data, temp.getNext()));
+            
+            ++size;
+        }
     }
 
     @Override
@@ -48,7 +54,8 @@ public class SinglyLinkedList<T extends Comparable<? super T>> implements
         if (data == null)
             throw new IllegalArgumentException("The data is null!");
 
-        tail = new SLLNode<T>(data);
+        tail.setNext(new SLLNode<T>(data));  
+        tail = tail.getNext();
         if (size == 0)
             head = tail;
 
@@ -61,7 +68,7 @@ public class SinglyLinkedList<T extends Comparable<? super T>> implements
         if (size == 0)
             return null;
 
-        SLLNode temp = head;
+        SLLNode<T> temp = head;
         head = head.getNext();
        
         --size;
@@ -70,11 +77,78 @@ public class SinglyLinkedList<T extends Comparable<? super T>> implements
 
     @Override
     public T removeAtIndex(int index) {
+        // check the index exists
+        if (index < 0 || index >= size)
+            throw new java.lang.IndexOutOfBoundsException("The index is out of bound!");
+        
+        if (index == 0)
+            return removeFromFront();
+        else if (index == size - 1)
+            return removeFromBack();
+        else {
+            SLLNode<T> temp = head;
+            for (int i = 0; i < index - 1; ++i) 
+                temp = temp.getNext();
+
+            T tempData = temp.getNext().getData();
+            temp.setNext(temp.getNext().getNext());
+            --size;
+            return tempData;
+        }
+        
+    }
+
+    @Override
+    public T removeFromBack() {
         // check the list is empty
         if (size == 0)
             return null;
+        else if (size == 1)
+            return removeFromFront();
+        
+        SLLNode<T> temp = head;
+        for (int i = 0; i < size - 2; ++i) 
+            temp = temp.getNext();
+        
+        T tempData = temp.getNext().getData();
+        temp.setNext(null);
+        tail = temp;
+       
+        --size;
+        return tempData;
+    }
 
-        return null;
+    @Override
+    public T get(int index) {
+        if (index < 0 || index >= size)
+            throw new java.lang.IndexOutOfBoundsException("The index is out of bound!");
+        
+        if (index == 0)
+            return head.getData();
+        else if(index == size - 1)
+            return tail.getData();
+        else {
+            SLLNode<T> temp = head;
+            for (int i = 0; i < index; ++i)
+                temp = temp.getNext();
+            return temp.getData();
+        }
+    }
+
+    @Override
+    public T findLargestElement() {
+        if (size == 0)
+            return null;
+        T max = head.getData();
+        
+        SLLNode<T> temp = head;
+
+        while (temp != null) {
+            if (max.compareTo(temp.getData()) < 0)
+                max = temp.getData();
+            temp = temp.getNext();
+        }
+        return max;
     }
 
     @Override
@@ -82,6 +156,32 @@ public class SinglyLinkedList<T extends Comparable<? super T>> implements
         return size;
     }
 
+    @Override
+    public Object[] toArray() {
+        Object[] arr = new Object[size];
+        SLLNode<T> temp = head;
+
+        for (int i = 0; i < size; ++i) {
+            arr[i] = temp.getData();
+            temp = temp.getNext();
+        }
+
+        return arr;
+    }
+
+    @Override
+    public void clear() {
+        head = null;
+        tail = null;
+        size = 0;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return size == 0;
+    }
+
+    
     @Override
     public SLLNode<T> getHead() {
         // DO NOT MODIFY!
@@ -92,5 +192,25 @@ public class SinglyLinkedList<T extends Comparable<? super T>> implements
     public SLLNode<T> getTail() {
         // DO NOT MODIFY!
         return tail;
+    }
+
+    // print test
+    public void print() {
+        if (size == 0) {
+            System.out.println("Print: No data in the list.");
+        } else {
+            System.out.print("List: ");
+            SLLNode ptr = head;
+            for (int i = 0; i < size; ++i) {
+                if (i == size - 1)
+                    System.out.println(ptr.getData() + ".");    
+                else
+                    System.out.print(ptr.getData() + ", ");
+                
+                ptr = ptr.getNext();
+            }
+        }
+
+        return;
     }
 }
