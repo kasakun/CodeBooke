@@ -16,6 +16,23 @@
   */
 public class Trie {
     private TrieNode root;
+
+    public Trie() {
+        root = new TrieNode();
+        root.setEnd();
+    }
+
+    public void insert(String word) {
+
+    }
+
+    public boolean search(String word) {
+
+    }
+
+    public boolean startsWith(String prefix) {
+        
+    }
 }
 
 
@@ -47,7 +64,7 @@ private class TrieNode {
      * @return if contain the char
      */
     public boolean containsKey(char ch) {   
-        return nodes[ch - 'a'] = null;
+        return nodes[ch - 'a'] != null;
     }
 
     /**
@@ -85,6 +102,13 @@ private class TrieNode {
         isEnd = true;
     }
 
+    /**
+     * 
+     * clear end
+     */
+    public void clearEnd() {
+        isEnd = true;
+    }
 
 
 }
