@@ -29,12 +29,10 @@ public class Trie {
 
         for (int i = 0; i < word.length(); ++i) {
             TrieNode newNode = new TrieNode();
-            node.put(word.charAt(i), newNode);
-            node.clearEnd();    
+            node.put(word.charAt(i), newNode);   
             node = newNode;
         }
-
-        // make it an end.
+        
         node.countInc();
     }
 
