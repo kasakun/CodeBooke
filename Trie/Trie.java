@@ -1,3 +1,5 @@
+import jdk.nashorn.internal.ir.BlockLexicalContext;
+
 /**
  * 
  * Trie Structure
@@ -19,19 +21,61 @@ public class Trie {
 
     public Trie() {
         root = new TrieNode();
-        root.setEnd();
+        node.countClear();
     }
 
     public void insert(String word) {
+        TrieNode node = root;
 
+        for (int i = 0; i < word.length(); ++i) {
+            TrieNode newNode = new TrieNode();
+            node.put(word.charAt(i), newNode);
+            node.clearEnd();    
+            node = newNode;
+        }
+
+        // make it an end.
+        node.countInc();
     }
 
+    /**
+     * 
+     * @param word 
+     * @return if the word is in the trie
+     */
     public boolean search(String word) {
+        TrieNode node = root;
 
+        for (int i = 0; i < word.length(); ++i) {
+            char ch = word.charAt(i);
+            if (node.containsKey(ch)) {
+                node = node.get(ch);
+            } else {
+                return false;
+            }
+        }
+
+        return node.hasWord();
     }
 
+    /**
+     * 
+     * @param prefix
+     * @return if contains the prefix
+     */
     public boolean startsWith(String prefix) {
-        
+        TrieNode node = root;
+
+        for (int i = 0; i < prefix.length(); ++i) {
+            char ch = prefix.charAt(i);
+            if (node.containsKey(ch)) {
+                node = node.get(ch);
+            } else {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
 
@@ -40,7 +84,7 @@ public class Trie {
  * 
  * TrieNode Structure
  * _______________________
- * |____boolean isEnd____|
+ * |______int count______|
  * |a|b|c|d|...|v|w|x|y|z|
  * |_|_|_|_|...|_|_|_|_|_|
  * 
@@ -48,7 +92,7 @@ public class Trie {
 private class TrieNode {
     private TrieNode[]  nodes;
     private final int size = 26;
-    private boolean isEnd;
+    int count;
     
     /**
      * 
@@ -87,28 +131,34 @@ private class TrieNode {
 
     /**
      * 
-     * check the node if the end of the word.
-     * @return if the node is the end
+     * .
+     * @return count of the node
      */
-    public boolean isEnd() {
-        return isEnd;
+    public int getCount() {
+        return count;
     }
 
     /**
      * 
-     * set the isEnd true
+     * @return if the node has the word.
+     * 
      */
-    public void setEnd() {
-        isEnd = true;
+    public boolean hasWord() {
+        return count != 0;
+    }
+
+    /**
+     * clear the count
+     */
+    public void countClear() {
+        count = 0;
     }
 
     /**
      * 
-     * clear end
+     * count the words.
      */
-    public void clearEnd() {
-        isEnd = true;
+    public void countInc() {
+        ++count;
     }
-
-
 }
