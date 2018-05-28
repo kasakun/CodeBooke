@@ -32,7 +32,7 @@ public class Trie {
             node.put(word.charAt(i), newNode);   
             node = newNode;
         }
-        
+        // The end of the word.
         node.countInc();
     }
 
