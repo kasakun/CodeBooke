@@ -21,23 +21,29 @@ public class Trie {
 
     public Trie() {
         root = new TrieNode();
-        node.countClear();
+        root.countClear();
     }
 
     public void insert(String word) {
         TrieNode node = root;
 
         for (int i = 0; i < word.length(); ++i) {
-            TrieNode newNode = new TrieNode();
-            node.put(word.charAt(i), newNode);   
-            node = newNode;
+            char ch = word.charAt(i);
+            if (node.get(ch) == null) {
+                TrieNode newNode = new TrieNode();
+                newNode.countClear();
+                node.put(ch, newNode);   
+                node = newNode;
+            } else {
+                node = node.get(ch);
+            }
         }
         // The end of the word.
         node.countInc();
     }
 
     /**
-     * 
+     * Get sub-node if contains, check the last node count
      * @param word 
      * @return if the word is in the trie
      */
@@ -54,6 +60,26 @@ public class Trie {
         }
 
         return node.hasWord();
+    }
+
+    /**
+     * 
+     * @param word
+     * @return count if the word exits
+     */
+    public int getCount(String word) {
+        TrieNode node = root;
+
+        for (int i = 0; i < word.length(); ++i) {
+            char ch = word.charAt(i);
+            if (node.containsKey(ch)) {
+                node = node.get(ch);
+            } else {
+                return 0;
+            }
+        }
+
+        return node.getCount();
     }
 
     /**
@@ -87,7 +113,7 @@ public class Trie {
  * |_|_|_|_|...|_|_|_|_|_|
  * 
  */
-private class TrieNode {
+class TrieNode {
     private TrieNode[]  nodes;
     private final int size = 26;
     int count;
@@ -105,8 +131,9 @@ private class TrieNode {
      * @param char
      * @return if contain the char
      */
-    public boolean containsKey(char ch) {   
-        return nodes[ch - 'a'] != null;
+    public boolean containsKey(char ch) {
+        int index = ch - 'a' < 0 ? (ch - 'A') : (ch - 'a');   
+        return nodes[index] != null;
     }
 
     /**
@@ -115,7 +142,8 @@ private class TrieNode {
      * @return the node contains the char
      */
     public TrieNode get(char ch) {
-        return nodes[ch - 'a'];
+        int index = ch - 'a' < 0 ? (ch - 'A') : (ch - 'a');           
+        return nodes[index];
     }
 
     /**
@@ -123,13 +151,13 @@ private class TrieNode {
      * put the node at the
      * @param char, node
      */
-    public void put(char ch, TreeNode node) {
-        nodes[ch - 'a'] = node;
+    public void put(char ch, TrieNode node) {
+        int index = ch - 'a' < 0 ? (ch - 'A') : (ch - 'a');  
+        nodes[index] = node;
     }
 
     /**
      * 
-     * .
      * @return count of the node
      */
     public int getCount() {
@@ -139,13 +167,14 @@ private class TrieNode {
     /**
      * 
      * @return if the node has the word.
-     * 
      */
     public boolean hasWord() {
         return count != 0;
     }
 
     /**
+     * 
+     * Only used when the node is new.
      * clear the count
      */
     public void countClear() {
