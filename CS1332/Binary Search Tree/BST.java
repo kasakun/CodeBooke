@@ -1,5 +1,9 @@
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.NoSuchElementException;
+import java.math.*;
 
 /**
  * Binary Search Tree
@@ -162,7 +166,30 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
      */
     @Override
     public T get(T data) {
-        return null;
+        if (data == null) 
+            throw new IllegalArgumentException("Input data is null!");
+        
+        return get(data, root);
+    }
+
+    /**
+     * 
+     * Helper method for get()
+     * @param data
+     * @param node current node
+     * @return the data
+     */
+    private T get(T data, BSTNode<T> node) {
+        if (node == null)
+            throw new NoSuchElementException("No such element!");
+        
+        if (data.equals(node.getData())) {
+            return node.getData();
+        } else if (data.compareTo(node.getData())) {
+            return get(data, node.getLeft());
+        } else {
+            return get(data, node.getRight());
+        }   
     }
 
     /**
@@ -171,7 +198,28 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
      */
     @Override
     public boolean contains(T data) {
+        if (data == null)
+            throw new IllegalArgumentException("The input data is null!");
         return false;
+    }
+
+    /**
+     * Helper method for contains
+     * @param data input data
+     * @param node current node
+     * @return boolean tell if contains the node
+     */
+    private boolean contains(T data, BSTNode<T> node) {
+        if (node == null) 
+            return false;
+        
+        if (data.equals(node.getData())) {
+            return true;
+        } else if (data.compareTo(node.getData() < 0)) {
+            return contains(data, node.getLeft());
+        } else {
+            return contains(data, node.getRight());
+        }
     }
 
     /**
@@ -180,12 +228,184 @@ public class BST<T extends Comparable<? super T>> implements BSTInterface<T> {
      */
     @Override
     public int size() {
-        return 0;
+        return size;
     }
 
     /**
      * 
      * @see Interface
      */
+    @Override
+    public List<T> preorder() {
+        List<T> res = new ArrayList<>();
+        return preorder(root, res);
+    }
 
+    /**
+     * 
+     * Helper method for preorder
+     * @param node current node
+     * @param input array list
+     * @return result list
+     */
+    private List<T> preorder(BSTNode<T> node, List<T> res) {
+        if (node == null) {
+            return res;
+        }
+
+        res.add(node.getData());
+        preorder(node.getLeft(), res);
+        preorder(node.getRight(), res);
+        return res;
+    }
+
+    /**
+     * 
+     * @see Interface
+     */
+    @Override
+    public List<T> inorder() {
+        List<T> res = new ArrayList<>();
+        return inorder(root, res);
+    }
+
+    /**
+     * Helper method for inorder
+     * @param node current node
+     * @param input array list
+     * @return result list
+     */
+    private List<T> inorder(BSTNode<T> node, List<T> res) {
+        if (node == null) {
+            return res;
+        }
+
+        inorder(node.getLeft(), res);
+        res.add(node.getData());
+        inorder(node.getRight(), res);
+        return res;
+    }
+
+    /**
+     * 
+     * @see Interface
+     */
+    @Override
+    public List<T> postorder() {
+        List<T> res = new ArrayList<>();
+        return postorder(root, res);
+    }
+
+    /**
+     * Helper method for postorder
+     * @param node current node
+     * @param input array list
+     * @return result list
+     */
+    private List<T> postorder(BSTNode<T> node, List<T> res) {
+        if (node == null) {
+            return res;
+        }
+
+        postorder(node.getLeft(), res);
+        postorder(node.getRight(), res);
+        res.add(node.getData());
+
+        return res;
+    }
+    
+     /**
+     * BFS
+     * @see Interface
+     */
+    @Override
+    public List<T> levelorder() {
+        Queue<BSTNode<T>> queue = new LinkedList<>();
+
+        queue.offer(root);
+
+        while (!queue.isEmpty()) {
+            BSTNode<T> node = queue.poll();
+            res.add(node.getData());
+
+            if (node.getLeft() != null) {
+                queue.offer(node.getLeft());
+            } else {
+                queue.offer(node.getRight());
+            } 
+        }
+        return res;
+    }
+
+    /**
+     * 
+     * @see Interface
+     */
+    @Override
+    public List<T> listLeavesDescending() {
+        List<T> res = new ArrayList<>();
+        return listLeavesDescending(root, res);
+    }
+
+    /**
+     * Helper method for descending
+     * @param node current node
+     * @param res input list
+     * @return list
+     */
+    private List<T> listLeavesDescending(BSTNode<T> node, List<T> res) {
+        if (null == null) {
+            return res;
+        }
+
+        if (node.getLeft() == null && node.getRight == null) {
+            res.add(node.getData());
+        }
+
+        listLeavesDescending(node.getRight(), res);
+        listLeavesDescending(node.getLeft(), res);
+        return res;
+    }
+
+    /**
+     * 
+     * @see Interface
+     */
+    @Override
+    public void clear() {
+        root = null;
+        size = 0;
+    }
+
+    /**
+     * 
+     * @see Interface
+     */
+    @Override
+    public int height() {
+        return height(root);
+    }
+
+    /**
+     * Helper method for height
+     * 
+     * @param node current node
+     * @return max height of two branches
+     */
+    private int height(BSTNode<T> node) {
+        if (node == null) {
+            return -1;
+        }
+
+        return 1 + Math.max(height(node.getLeft()), height(node.getRight()));
+    }
+
+    /**
+     * 
+     * @see Interface
+     */
+    @Override
+    public BSTNode<T> getRoot() {
+        return root;
+    }
 }
