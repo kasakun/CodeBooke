@@ -48,7 +48,7 @@ import java.util.NoSuchElementException;
         int index = size;
         int parent = size/2;
         backingArray[index] = item;
-        while (parent > 0 && backingArray[parent].compareTo(item) < 0) {
+        while (parent > 0 && backingArray[index].compareTo(backingArray[parent]) < 0) {
             T temp = backingArray[index];
             backingArray[index] = backingArray[parent];
             backingArray[parent] = temp;
@@ -66,7 +66,7 @@ import java.util.NoSuchElementException;
     @Override
     public T remove() {
         if (size == 0) {
-            throw new NodSuchElementException("Heap is empty");
+            throw new NoSuchElementException("Heap is empty");
         }
 
         T removeItem = backingArray[1];
@@ -84,7 +84,7 @@ import java.util.NoSuchElementException;
                 }
             }
 
-            if (backingArray[minChild].compareTo(backingArrayindex[index]) < 0) {
+            if (backingArray[minChild].compareTo(backingArray[index]) < 0) {
                 T temp = backingArray[minChild];
                 backingArray[minChild] = backingArray[index];
                 backingArray[index] = temp;
@@ -109,7 +109,7 @@ import java.util.NoSuchElementException;
 
     @Override
     public void clear() {
-        arr = (T[]) new Comparable[INITIAL_CAPACITY];
+        backingArray = (T[]) new Comparable[INITIAL_CAPACITY];
         size = 0;
     }
 
