@@ -18,7 +18,7 @@ import java.util.NoSuchElementException;
     }
 
     /**
-     * 
+     * O(logn)
      * @see Interface
      */
     @Override
@@ -59,10 +59,43 @@ import java.util.NoSuchElementException;
 
     }
     
+    /**
+     * O(logn)
+     * @see Interface
+     */
     @Override
     public T remove() {
-        return null;
+        if (size == 0) {
+            throw new NodSuchElementException("Heap is empty");
+        }
+
+        T removeItem = backingArray[1];
+        int index = size;
+        backingArray[1] = backingArray[index];
+        backingArray[index] = null;
+        --size;
+        index = 1;
+
+        while (index <= size/2) {
+            int minChild = index*2;
+            if (backingArray[index*2 + 1] != null) {
+                if (backingArray[index*2 + 1].compareTo(backingArray[minChild]) < 0) {
+                    minChild = index*2 + 1;
+                }
+            }
+
+            if (backingArray[minChild].compareTo(backingArrayindex[index]) < 0) {
+                T temp = backingArray[minChild];
+                backingArray[minChild] = backingArray[index];
+                backingArray[index] = temp;
+            }
+
+            index = minChild;
+        }
+
+        return removeItem;
     }
+
 
     @Override
     public boolean isEmpty() {
