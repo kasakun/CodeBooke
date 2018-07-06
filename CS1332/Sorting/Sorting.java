@@ -57,8 +57,8 @@ public class Sorting {
             }
 
             for (int i = end; i > start; --i) {
-                if (comparator.compare(arr[i], arr[i + 1]) > 0) {
-                    swap(arr, i, i + 1);
+                if (comparator.compare(arr[i - 1], arr[i]) > 0) {
+                    swap(arr, i - 1, i);
                     swapped = true;
                 }
             }
@@ -300,7 +300,7 @@ public class Sorting {
     private static <T> void merge(T[]arr, Comparator<T> comparator,
                                   int start, int mid, int end) {
         int left = start;
-        int right = end;
+        int right = mid + 1;
 
         int leftEnd = mid;
         int rightEnd = end;
@@ -327,7 +327,7 @@ public class Sorting {
 
         while (right <= rightEnd) {
             temp[index] = arr[right];
-            ++right;++indexl;
+            ++right;++index;
         }
 
         for (int i = start; i <= end; ++i) {
@@ -367,7 +367,7 @@ public class Sorting {
             throw new IllegalArgumentException("Null arr!");
         }
 
-        Queue<Integer>[] buckets = new Queue<>[10];
+        Queue<Integer>[] buckets = new Queue[10];
         for (Queue<Integer> bucket: buckets) {
             bucket = new LinkedList<>();
         }
