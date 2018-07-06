@@ -367,7 +367,7 @@ public class Sorting {
             throw new IllegalArgumentException("Null arr!");
         }
 
-        Queue<Integer>[] buckets = new Queue<>[19];
+        Queue<Integer>[] buckets = new Queue<>[10];
         for (Queue<Integer> bucket: buckets) {
             bucket = new LinkedList<>();
         }
@@ -390,7 +390,7 @@ public class Sorting {
         for (int i = 0; i < it; ++i) {
             for (int j = 0; j < arr.length; ++j) {
                 int temp = arr[j]/power(10, i);
-                int bucket = (temp % 10) + 9;
+                int bucket = (temp % 10);
 
                 if (buckets[bucket] == null) {
                     buckets[bucket] = new LinkedList<>();
