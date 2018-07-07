@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * Deprecated. Too complex to test manually.
+ */
 public class Solution {
     public static void main(String[] args) {
         Integer[] data = {10, 6, 7, 4, 12, 5, 1, 13, 11, 15, 17, 19, 22, 24, 14};
