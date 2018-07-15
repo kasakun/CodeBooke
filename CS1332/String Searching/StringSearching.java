@@ -93,4 +93,98 @@ public class StringSearching {
 
         return table;
     }
+
+    /**
+     * Boyer Moore algorithm that relies on last occurrence table. Works better
+     * with large alphabets.
+     *
+     * Make sure to implement the last occurrence table before implementing this
+     * method.
+     *
+     * @throws IllegalArgumentException if the pattern is null or of length 0
+     * @throws IllegalArgumentException if text or comparator is null
+     * @param pattern the pattern you are searching for in a body of text
+     * @param text the body of text where you search for the pattern
+     * @param comparator the comparator to use when checking character equality
+     * @return list containing the starting index for each match found
+     */
+    public static List<Integer> boyerMoore(CharSequence pattern,
+                                           CharSequence text, 
+                                           CharacterComparator comparator) {
+
+        if (pattern  == null || pattern.length() == 0) {
+            throw new IllegalArgumentException("Null or empty pattern!");
+        }
+
+        if (text == null || comparator == null) {
+            throw new IllegalArgumentException("Null text or null comparator!");
+        }
+
+        List<Integer> result = new ArrayList<>();
+
+        Map<Character, Integer> lastTable = buildLastTable(pattern);
+
+        int i = 0;
+
+        while (i <= text.length() - pattern.length()) {
+            // start from last character
+            int j = pattern.length() - 1;
+            while (j >= 0 && comparator.compare(text.charAt(i + j),
+                                                pattern.charAt(j)) == 0) {
+                --j;
+            }
+            if (j == -1) {
+                result.add(i);
+                ++i;
+            } else {
+                // because we have match the good last
+                int shiftedIndex = lastTable.getOrDefault(text.charAt(i + j), -1);
+                if (shiftedIndex < j)
+                    i += j - shiftedIndex;
+                else
+                    ++i;
+            }
+        }
+
+        return result;
+    }
+
+    /**
+     * Builds last occurrence table that will be used to run the Boyer Moore
+     * algorithm.
+     *
+     * Note that each char x will have an entry at table.get(x).
+     * Each entry should be the last index of x where x is a particular
+     * character in your pattern.
+     * If x is not in the pattern, then the table will not contain the key x,
+     * and you will have to check for that in your Boyer Moore implementation.
+     *
+     * Ex. octocat
+     *
+     * table.get(o) = 3
+     * table.get(c) = 4
+     * table.get(t) = 6
+     * table.get(a) = 5
+     * table.get(everything else) = null, which you will interpret in
+     * Boyer-Moore as -1
+     *
+     * If the pattern is empty, return an empty map.
+     *
+     * @throws IllegalArgumentException if the pattern is null
+     * @param pattern a {@code CharSequence} you are building last table for
+     * @return a Map with keys of all of the characters in the pattern mapping
+     *         to their last occurrence in the pattern
+     */
+    public static Map<Character, Integer> buildLastTable(CharSequence pattern) {
+        if (pattern == null) {
+            throw new IllegalArgumentException("null pattern");
+        }
+
+        Map<Character, Integer> lastTable = new HashMap<>();
+
+        for (int i = 0; i < pattern.length(); i++) {
+            lastTable.put(pattern.charAt(i), i);
+        }
+        return lastTable;
+    }
 }
