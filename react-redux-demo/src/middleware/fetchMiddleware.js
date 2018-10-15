@@ -2,11 +2,8 @@ import apiDataParser from "../utils/apiDataParser";
 import { getCacheExpDate, getCachedData } from "../selectors";
 import {
   FETCH_POSTS,
-  FETCH_COMMENTS,
   fetchPostsSuccess,
   fetchPostsError,
-  fetchCommentsSuccess,
-  fetchCommentsError,
   cacheSet
 } from "../actions";
 
@@ -34,8 +31,8 @@ export const fetchMiddleware = store => next => action => {
       const data = getCachedData(store.getState(), subreddit);
       return next(fetchPostsSuccess(data));
     }
-
-    const url = `${BASE_URL}/r/${subreddit}/.json?${BASE_PARAMS}`;
+    // hardcode test
+    const url = `http://czy-kasakun.com:8080/DizasterX/webapi/data/list?date1=19530908&date2=19540808&states=CA,MS}`;
 
     apiGet(url)
       .then(data => {
@@ -44,19 +41,6 @@ export const fetchMiddleware = store => next => action => {
       })
       .catch(error => {
         return next(fetchPostsError(error));
-      });
-  }
-
-  if (action.type === FETCH_COMMENTS) {
-    const { subreddit, postId } = action;
-    const url = `${BASE_URL}/r/${subreddit}/comments/${postId}/.json?${BASE_PARAMS}`;
-
-    apiGet(url)
-      .then(data => {
-        return next(fetchCommentsSuccess(data));
-      })
-      .catch(error => {
-        return next(fetchCommentsError(error));
       });
   }
 
