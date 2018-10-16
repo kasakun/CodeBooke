@@ -1,13 +1,17 @@
+/**
+ * @author Zeyu Chen
+ * @version 1.0
+ */
 // type
-export const FETCH_POSTS = "FETCH_POSTS";
-export const FETCH_POSTS_SUCCESS = "FETCH_POSTS_SUCCESS";
-export const FETCH_POSTS_ERROR = "FETCH_POSTS_ERROR";
+export const FETCH_LIST = "FETCH_LIST";
+export const FETCH_LIST_SUCCESS = "FETCH_LIST_SUCCESS";
+export const FETCH_LIST_ERROR = "FETCH_LIST_ERROR";
 
 export const CACHE_SET = "CACHE_SET";
 
 // action
-export const fetchPosts = subreddit => ({ type: FETCH_POSTS, data });
-export const fetchPostsSuccess = (data, subreddit) => ({ type: FETCH_POSTS_SUCCESS, data });
-export const fetchPostsError = (error, subreddit) => ({ type: FETCH_POSTS_ERROR, error });
+export const fetchList = search => ({ type: FETCH_LIST, search });
+export const fetchListSuccess = (data, search) => ({ type: FETCH_LIST_SUCCESS, data });
+export const fetchListError = (error, search) => ({ type: FETCH_LIST_ERROR, error });
 
 export const cacheSet = (key, value) => ({ type: CACHE_SET, key, value });

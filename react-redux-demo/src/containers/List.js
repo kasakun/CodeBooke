@@ -1,34 +1,67 @@
+/**
+ * @author Zeyu Chen
+ * @version 1.0
+ */
 import React, { Component, Fragment } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 
+import { fetchList } from "../actions";
+import Entry from "../components/Entry/Entry"
+
 
 class List extends Component {
   static propTypes = {
-    posts: PropTypes.array,
-    isLoading: PropTypes.bool,
+    entries: PropTypes.array,
+    size: PropTypes.number,
     dispatch: PropTypes.func.isRequired,
     history: PropTypes.object.isRequired,
-    match: PropTypes.object.isRequired
+    location: PropTypes.object.isRequired
   };
+
+  componentDidMount() {
+    this.fetchData(this.props.location.search);
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    const search = this.props.location.search;
+    if (search !== prevProps.location.search) {
+      this.fetchData(search);
+    }
+  }
+
+  fetchData(search) {
+    const { dispatch } = this.props;
+    dispatch(fetchList(search));
+  }
+
   render() {
-    const { posts, isLoading, match, error } = this.props;
-    match.params.sub = 'ss';
-    console.log(this.props)
+    const { entries, size } = this.props;
+
     return (
       <div>
-          List
-          
-          <a></a>
+        Total: {size}
+        <Fragment>
+        <div>
+          {entries && entries.map(entry => ( //Remeber we have to check because at first we dont have data
+              <Entry
+                key={entry.hash}
+                entry={entry}
+              />
+            ))}
+          </div>
+      </Fragment>
       </div>
     );
   }
 }
 
+/*
+ * Go to check rootReducer.js to check the state.
+ */
 const mapState = state => ({
-  posts: state.posts.data.posts,
-  error: state.posts.error,
-  isLoading: state.posts.isLoading
+  entries: state.entries.data.entries,
+  size: state.entries.data.size
 });
 
 export default connect(mapState)(List);

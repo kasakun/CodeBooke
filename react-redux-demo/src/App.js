@@ -1,6 +1,9 @@
+/**
+ * @author Zeyu Chen
+ * @version 1.0
+ */
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
-
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import List from "./containers/List";
 import './App.css';
 
