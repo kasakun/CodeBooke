@@ -1,0 +1,6 @@
+-classpath '/home/chenzy/Desktop/Code/CodeBook/DomainBanner/build/classes/java/main:/home/chenzy/Desktop/Code/CodeBook/DomainBanner/build/resources/main'
+-d '/home/chenzy/Desktop/Code/CodeBook/DomainBanner/build/docs/javadoc'
+-doctitle 'DomainBanner 1.0-SNAPSHOT API'
+-quiet 
+-windowtitle 'DomainBanner 1.0-SNAPSHOT API'
+'/home/chenzy/Desktop/Code/CodeBook/DomainBanner/src/main/java/Main.java'
