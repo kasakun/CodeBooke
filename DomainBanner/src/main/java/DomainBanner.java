@@ -1,5 +1,5 @@
 import java.util.HashMap;
-import java.util.HashSet;
+import java.util.Map;
 
 /**
  * @author by Zeyu Chen
@@ -7,11 +7,12 @@ import java.util.HashSet;
  */
 public class DomainBanner {
 
+    private DomainBannerNode root;
     /**
      * Constructor
      */
     public  DomainBanner() {
-        DomainBannerNode root = new DomainBannerNode();
+        root = new DomainBannerNode();
     }
 
     /**
@@ -19,7 +20,19 @@ public class DomainBanner {
      * @param domain
      */
     public void add (String domain) {
-        
+        DomainBannerNode currNode = root;
+        String[] splittedDomain = domain.split(".");
+
+        for (int i = splittedDomain.length - 1; i > 0; --i) {
+            if (currNode.checkIfInChildren(splittedDomain[i])) {
+                continue;
+            }
+            else {
+                currNode.addToChildren(splittedDomain[i]);
+            }
+            DomainBannerNode nextNode = currNode.getValueByKey(splittedDomain[i]);
+            currNode = nextNode;
+        }
     }
 
     /**
@@ -38,13 +51,26 @@ public class DomainBanner {
      * @return true if domain is in the list
      */
     public boolean check(String domain, DomainBannerNode root) {
+        String[] splittedDomain = domain.split(".");
+        DomainBannerNode currNode = root;
+
+        for (int i = splittedDomain.length - 1; i > 0; --i) {
+            if (currNode.checkIfInChildren(splittedDomain[i])) {
+                currNode = currNode.getValueByKey(splittedDomain[i]);
+                continue;
+            }
+            else {
+                return false;
+            }
+        }
+
         return true;
     }
 }
 
 class DomainBannerNode {
     private String mDomainPart;
-    private HashSet<String> mSet;
+    private Map<String, DomainBannerNode> mMap; // children domainPart and its node
 
     /**
      * Constructor
@@ -53,7 +79,7 @@ class DomainBannerNode {
      */
     public DomainBannerNode() {
         mDomainPart = null;
-        mSet = new HashSet<>();
+        mMap = new HashMap<>();
     }
 
     /**
@@ -63,8 +89,7 @@ class DomainBannerNode {
      */
     public DomainBannerNode(String domainPart) {
         mDomainPart = domainPart;
-        mSet = new HashSet<>();
-        mSet.add(domainPart);
+        mMap = new HashMap<>();
     }
 
     /**
@@ -74,7 +99,7 @@ class DomainBannerNode {
      * @return true if it contains
      */
     public boolean checkIfInChildren(String domainPart) {
-        return true;
+        return mMap.containsKey(domainPart);
     }
 
     /**
@@ -83,6 +108,21 @@ class DomainBannerNode {
      * @param domainPart
      */
     public void addToChildren(String domainPart) {
-        mSet.add(domainPart);
+        mMap.put(domainPart, new DomainBannerNode(domainPart));
+    }
+
+    /**
+     * This method returns the next node which matches the input domain part.
+     *
+     * @param domainPart
+     */
+    public DomainBannerNode getValueByKey(String domainPart) {
+        // double check
+        if (!mMap.containsKey(domainPart)) {
+            return null;
+        }
+        else {
+            return  mMap.get(domainPart);
+        }
     }
 }
