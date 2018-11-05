@@ -14,4 +14,15 @@ router.get('/', function(req, res, next) {
     res.json({status: 'success', name: name, password: password});
 });
 
+/*POST*/
+router.post('/', function(req, res, next) {
+  let r = req.param('Red');
+  let g = req.param('Green');
+  let b = req.param('Blue');
+
+  res.json({status:'success', Red: r, Green: g, Blue: b});
+  console.log(JSON.stringify(req.body));
+
+});
+
 module.exports = router;
