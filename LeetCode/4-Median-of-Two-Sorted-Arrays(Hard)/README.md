@@ -24,4 +24,4 @@ nums2 = [3, 4]
 The median is (2 + 3)/2 = 2.5
 ```
 
-`Note` This problem can also called find top-k problem.
+`Note` This problem can be also called find top-k problem.
