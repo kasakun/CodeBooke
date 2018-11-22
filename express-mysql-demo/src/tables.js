@@ -11,4 +11,6 @@ const users = {
 	queryAll: 'select * from users;'
 };
  
-module.exports = users;
+module.exports = {
+	users: users
+};

@@ -10,4 +10,6 @@ id, name, class, email
 
 ### Post List
 
-id, title, content, comments, status, users
+id, title, content, comments, status, users, date
+
+comments = { id, content, date }
