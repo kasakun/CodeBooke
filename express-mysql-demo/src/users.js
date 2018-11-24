@@ -107,6 +107,19 @@ const queryById = (req, res, next) => {
 };
 
 /**
+ * Query by username
+ */
+const queryByUsername = (req, res, next) => {
+    pool.getConnection(function(err, connection) {
+        const username = req.body.username;
+        connection.query(tables.users.queryUsername, username, function(err, result) {
+            jsonHelper(res, result);
+            connection.release();
+        });
+    });
+};
+
+/**
  * Query all
  */
 const queryAll = (req, res, next) => {
@@ -118,10 +131,37 @@ const queryAll = (req, res, next) => {
     });
 };
 
+/**
+ * Login
+ */
+const login = (req, res, next) => {
+    pool.getConnection(function(err, connection) {
+        const username = req.body.username;
+        connection.query(tables.users.queryByUsername, username, function(err, result) {
+            if (result) {
+                let [ userInfo ] = result;
+                if (userInfo.password === req.body.password) {
+                    req.session.username = req.body.username; // success, setup session
+
+                    result = SUCCESS_MSG;
+                } else {
+                    result = {code:'1001', msg: 'Incorrect password'};
+                }
+            } else {
+                result = {code:'1000', msg: 'User not found'};
+            }
+            jsonHelper(res, result);
+            connection.release();
+        });
+    });
+};
+
 module.exports = { 
     add: add, 
     update: update,
     delete: del,
     queryById: queryById,
-    queryAll: queryAll
+    queryByUsername: queryByUsername,
+    queryAll: queryAll,
+    login: login
 };

@@ -32,4 +32,15 @@ router.post('/queryAll', function(req, res, next) {
 	userTable.queryAll(req, res, next);
 });
 
+/* Login */
+router.post('/login', function(req, res, next){
+	userTable.login(req, res, next);
+});
+
+/* Logout */
+router.post('/logout', function (req, res, next) {
+	req.session.username = null; // delete session
+	res.redirect('/'); // TODO: change it to msg
+});
+
 module.exports = router;
