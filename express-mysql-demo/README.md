@@ -1,6 +1,6 @@
 # express-mysql-demo
 
-A demo for Hiroba
+A demo for [HIROBA](https://github.com/LinSijie/HIROBA)
 
 ## TODO
 
