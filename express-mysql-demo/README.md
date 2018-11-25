@@ -14,9 +14,14 @@ id, name, class, email
 
 ### Post List
 
-id, title, content, comments, status, users, date
+id, title, content, status, users, date
 
-comments = { id, content, date }
+### Comment List
+
+id, pid, content, from_uid, to_uid, date
+
+pid: post id
+uid: user id
 
 ## Login and Signup
 
