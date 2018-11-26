@@ -13,22 +13,22 @@ const users = {
 };
 
 const posts = {
-	insert:'insert into users(id, title, content, status, users, date) values(?,?,?,?,?,?);',
-	update:'update users set title=?, content=?, status=?, users=?, date=? where id=?;',
-	delete: 'delete from users where id=?;',
-	queryById: 'select * from users where id=?;',
-	queryByStatus: 'select * from users where status=?;',
-	queryByTitle: 'select * from users where title=?;',
-	queryAll: 'select * from users;'
+	insert:'insert into posts(id, title, content, status, users, date) values(?,?,?,?,?,?);',
+	update:'update posts set title=?, content=?, status=?, users=?, date=? where id=?;',
+	delete: 'delete from posts where id=?;',
+	queryById: 'select * from posts where id=?;',
+	queryByStatus: 'select * from posts where status=?;',
+	queryByTitle: 'select * from posts where title=?;',
+	queryAll: 'select * from posts;'
 }
 
 const comments = {
-	insert:'insert into users(id, content, postId, fromUid, toUid, date) values(?,?,?,?,?,?);',
-	update:'update users set content=?, postId=?, fromUid=?, toUid=?, date=? where id=?;',
-	delete: 'delete from users where id=?;',
-	queryById: 'select * from users where id=?;',
-	queryByPostId: 'select * from users where postId=?;',
-	queryAll: 'select * from users;'
+	insert:'insert into comments(id, content, postId, fromUid, toUid) values(?,?,?,?,?);',
+	update:'update comments set content=?, postId=?, fromUid=?, toUid=? where id=?;',
+	delete: 'delete from comments where id=?;',
+	queryById: 'select * from comments where id=?;',
+	queryByPostId: 'select * from comments where postId=?;',
+	queryAll: 'select * from comments;'
 }
 
 module.exports = {

@@ -9,18 +9,18 @@ const pool = mysql.createPool(db.mysql);
 const utils = require('./utils');
 
 /**
- * Add a user
+ * Add a comment
  */
 const add = (req, res, next) => {
     pool.getConnection(function(err, connection) {
 
-        const param = [req.body.id, 
-                       req.body.username, 
-                       req.body.password, 
-                       req.body.class, 
-                       req.body.email];
+        const param = [req.body.id,
+                       req.body.content,
+                       req.body.postId,
+                       req.body.fromUid, 
+                       req.body.toUid];
         
-        connection.query(tables.users.insert, param, function(err, result) {
+        connection.query(tables.comments.insert, param, function(err, result) {
             if (result) {
                 result = utils.msg.SUCCESS_MSG;    
             }
@@ -32,14 +32,14 @@ const add = (req, res, next) => {
 };
 
 /**
- * Update a user
+ * Update a comment
  * 
  * The request must include all elements. So the best way for front end is query
  * first and then update it.
  */
 const update = (req, res, next) => {
     if (req.body.id === undefined) {
-        utils.jsonHelper(res, undefined); // change it to another error code
+        utils.jsonHelper(res, utils.msg.INVALID_REQ); // change it to another error code
     }
 
     pool.getConnection(function(err, connection){
@@ -51,7 +51,7 @@ const update = (req, res, next) => {
         
         connection.query(tables.users.update, param, function(err, result) {
             if (result) {
-                result = utils.msg.SUCCESS_MSG;    
+                result = SUCCESS_MSG;    
             }
 
             utils.jsonHelper(res, result);
@@ -61,14 +61,14 @@ const update = (req, res, next) => {
 };
 
 /**
- * Delete a user
+ * Delete a comment
  */
 const del = (req, res, next) => {
     pool.getConnection(function(err, connection) {
         const id = req.body.id;
         connection.query(tables.users.delete, id, function(err, result) {
             if (result) {
-                result = utils.msg.SUCCESS_MSG;
+                result = SUCCESS_MSG;
             }
 
             utils.jsonHelper(res, result);
@@ -115,37 +115,11 @@ const queryAll = (req, res, next) => {
     });
 };
 
-/**
- * Login
- */
-const login = (req, res, next) => {
-    pool.getConnection(function(err, connection) {
-        const username = req.body.username;
-        connection.query(tables.users.queryByUsername, username, function(err, result) {
-            if (result) {
-                let [ userInfo ] = result;
-                if (userInfo.password === req.body.password) {
-                    req.session.username = req.body.username; // success, setup session
-
-                    result = utils.msg.SUCCESS_MSG;
-                } else {
-                    result = utils.msg.INVALID_PWD;
-                }
-            } else {
-                result = utils.msg.INVALID_USER;
-            }
-            utils.jsonHelper(res, result);
-            connection.release();
-        });
-    });
-};
-
 module.exports = { 
     add: add, 
     update: update,
     delete: del,
     queryById: queryById,
     queryByUsername: queryByUsername,
-    queryAll: queryAll,
-    login: login
+    queryAll: queryAll
 };
