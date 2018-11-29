@@ -39,19 +39,19 @@ const add = (req, res, next) => {
  */
 const update = (req, res, next) => {
     if (req.body.id === undefined) {
-        utils.jsonHelper(res, utils.msg.INVALID_REQ); // change it to another error code
+        utils.jsonHelper(res, utils.msg.INVALID_REQ);
     }
 
     pool.getConnection(function(err, connection){
-        const param = [req.body.username, 
-                       req.body.password, 
-                       req.body.class, 
-                       req.body.email,
+        const param = [req.body.content,
+                       req.body.postId,
+                       req.body.fromUid, 
+                       req.body.toUid,
                        req.body.id];
         
-        connection.query(tables.users.update, param, function(err, result) {
+        connection.query(tables.comments.update, param, function(err, result) {
             if (result) {
-                result = SUCCESS_MSG;    
+                result = utils.msg.SUCCESS_MSG;    
             }
 
             utils.jsonHelper(res, result);
@@ -66,9 +66,9 @@ const update = (req, res, next) => {
 const del = (req, res, next) => {
     pool.getConnection(function(err, connection) {
         const id = req.body.id;
-        connection.query(tables.users.delete, id, function(err, result) {
+        connection.query(tables.comments.delete, id, function(err, result) {
             if (result) {
-                result = SUCCESS_MSG;
+                result = utils.msg.SUCCESS_MSG;
             }
 
             utils.jsonHelper(res, result);
@@ -83,7 +83,7 @@ const del = (req, res, next) => {
 const queryById = (req, res, next) => {
     pool.getConnection(function(err, connection) {
         const id = req.body.id;
-        connection.query(tables.users.queryById, id, function(err, result) {
+        connection.query(tables.comments.queryById, id, function(err, result) {
             utils.jsonHelper(res, result);
             connection.release();
         });
@@ -91,12 +91,12 @@ const queryById = (req, res, next) => {
 };
 
 /**
- * Query by username
+ * Query by postId
  */
-const queryByUsername = (req, res, next) => {
+const queryByPostId = (req, res, next) => {
     pool.getConnection(function(err, connection) {
-        const username = req.body.username;
-        connection.query(tables.users.queryUsername, username, function(err, result) {
+        const postId = req.body.postId;
+        connection.query(tables.comments.queryByPostId, postId, function(err, result) {
             utils.jsonHelper(res, result);
             connection.release();
         });
@@ -108,7 +108,7 @@ const queryByUsername = (req, res, next) => {
  */
 const queryAll = (req, res, next) => {
     pool.getConnection(function(err, connection) {
-        connection.query(tables.users.queryAll, function(err, result) {
+        connection.query(tables.comments.queryAll, function(err, result) {
             utils.jsonHelper(res, result);
             connection.release();
         });
@@ -120,6 +120,6 @@ module.exports = {
     update: update,
     delete: del,
     queryById: queryById,
-    queryByUsername: queryByUsername,
+    queryByPostId: queryByPostId,
     queryAll: queryAll
 };

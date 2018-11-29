@@ -39,7 +39,7 @@ const add = (req, res, next) => {
  */
 const update = (req, res, next) => {
     if (req.body.id === undefined) {
-        utils.jsonHelper(res, undefined); // change it to another error code
+        utils.jsonHelper(res, undefined);
     }
 
     pool.getConnection(function(err, connection){
