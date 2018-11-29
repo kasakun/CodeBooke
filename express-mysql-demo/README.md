@@ -32,6 +32,22 @@ CREATE TABLE users(`id` INT UNSIGNED,
 
 id, title, content, status, users, date
 
+users: a list of user id
+
+**MySQL Table**:
+
+```sql
+CREATE TABLE posts(`id` INT UNSIGNED,
+                   `title` VARCHAR(256) NOT NULL,
+                   `content` TEXT,
+                   `status` VARCHAR(256) NOT NULL,
+                   `users` TEXT,
+                   `createDate` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                   `updateDate` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+                   PRIMARY KEY(`id`)
+                   )ENGINE=InnoDB DEFAULT CHARSET=utf8;
+```
+
 ### Comment List
 
 id, pid, content, from_uid, to_uid, date
