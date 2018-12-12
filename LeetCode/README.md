@@ -10,4 +10,7 @@
 + 8. [String to Integer (atoi)](./8-String-to-Integer(Medium))
 + 9. [9-Palindrome-Number](./9-Palindrome-Number(Easy))
 + 11. [Container With Most Water](./11-Container-With-Most-Water(Medium))
++ 15. [3Sum](./15-3Sum(Medium))
++ 16. [3Sum Closest](./16-3Sum-Closest(Medium))
++ 20. [Valid Parentheses](20-Valid-Parentheses(Easy))
 + 23. [Merge k Sorted Lists](./23-Merge-k-Sorted-Lists(Hard))
