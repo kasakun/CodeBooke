@@ -13,4 +13,5 @@
 + 15. [3Sum](./15-3Sum(Medium))
 + 16. [3Sum Closest](./16-3Sum-Closest(Medium))
 + 20. [Valid Parentheses](20-Valid-Parentheses(Easy))
++ 21. [Merge Two Sorted Lists](./21-Merge-Two-Sorted-Lists(Easy))
 + 23. [Merge k Sorted Lists](./23-Merge-k-Sorted-Lists(Hard))
