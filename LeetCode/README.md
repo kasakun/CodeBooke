@@ -26,3 +26,4 @@
 + 105. [Construct Binary Tree from Preorder and Inorder Traversal](./105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal(Medium))
 + 111. [Minimum Depth of Binary Tree](./111-Minimum-Depth-of-Binary-Tree(Easy))
 + 153. [Find Minimum in Rotated Sorted Array](./153-Find-Minimum-in-Rotated-Sorted-Array(Medium))
++ 275. [H index II](./275-H-index-II(Medium))
