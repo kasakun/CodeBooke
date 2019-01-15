@@ -20,6 +20,7 @@
 + 31. [Next Permutation](./31-Next-Permutation(Medium))
 + 35. [Search Insert Position](./35-Search-Insert-Position(Easy))
 + 50. [Pow(x, n)](./50-Pow(x, n)(Medium))
++ 60. [Permutation Sequence](./60-Permutation-Sequence(Medium))
 + 74. [Search a 2D Matrix](./74-Seach-a-2D-Matrix(Medium))
 + 81. [Search in Rotated Sorted Array II](./81-Search-in-Rotated-Sorted-Array-II(Medium))
 + 100. [Same Tree](./100-Same-Tree(Easy))
