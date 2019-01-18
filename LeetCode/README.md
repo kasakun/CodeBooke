@@ -23,6 +23,7 @@
 + 51. [N Queens](51-N-Queens(Hard))
 + 52. [N Queens II](52-N-Queens-II(Hard))
 + 54. [Spiral Matrix](./54-Spiral-Matrix(Medium))
++ 55. [Jump Game](./55-Jump-Game(Medium))
 + 60. [Permutation Sequence](./60-Permutation-Sequence(Medium))
 + 74. [Search a 2D Matrix](./74-Seach-a-2D-Matrix(Medium))
 + 81. [Search in Rotated Sorted Array II](./81-Search-in-Rotated-Sorted-Array-II(Medium))
