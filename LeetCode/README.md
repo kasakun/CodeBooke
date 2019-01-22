@@ -27,6 +27,7 @@
 + 56. [Merge Intervals](./56-Merge-Intervals(Medium))
 + 59. [Spiral Matrix II](./59-Spiral-Matrix-II(Medium))
 + 60. [Permutation Sequence](./60-Permutation-Sequence(Medium))
++ 62. [Unique Paths](./62-Unique-Paths(Medium))
 + 74. [Search a 2D Matrix](./74-Seach-a-2D-Matrix(Medium))
 + 81. [Search in Rotated Sorted Array II](./81-Search-in-Rotated-Sorted-Array-II(Medium))
 + 100. [Same Tree](./100-Same-Tree(Easy))
