@@ -29,6 +29,7 @@
 + 60. [Permutation Sequence](./60-Permutation-Sequence(Medium))
 + 62. [Unique Paths](./62-Unique-Paths(Medium))
 + 63. [Unique Paths II](./63-Unique-Paths-II(Medium))
++ 64. [Minimum Path Sum](./64-Minimum-Path-Sum(Medium))
 + 74. [Search a 2D Matrix](./74-Seach-a-2D-Matrix(Medium))
 + 81. [Search in Rotated Sorted Array II](./81-Search-in-Rotated-Sorted-Array-II(Medium))
 + 100. [Same Tree](./100-Same-Tree(Easy))
