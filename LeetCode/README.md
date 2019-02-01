@@ -33,6 +33,7 @@
 + 66. [Plus One](./66-Plus-One(Easy))
 + 67. [Add Binary](./67-Add-Binary(Easy))
 + 69. [Sqrt(x)](./69-Sqrt-X(Easy))
++ 70. [Climbing Stairs](./70-Climbing-Stairs(Easy))
 + 74. [Search a 2D Matrix](./74-Seach-a-2D-Matrix(Medium))
 + 81. [Search in Rotated Sorted Array II](./81-Search-in-Rotated-Sorted-Array-II(Medium))
 + 100. [Same Tree](./100-Same-Tree(Easy))
