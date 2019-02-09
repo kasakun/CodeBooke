@@ -41,6 +41,7 @@
 + 78. [Subsets](./Subsets(Medium))
 + 80. [Remove Duplicates from Sorted Array II](./80-Remove-Duplicates-from-Sorted-Array-II(Medium))
 + 81. [Search in Rotated Sorted Array II](./81-Search-in-Rotated-Sorted-Array-II(Medium))
++ 86. [Partition List](./86-Partition-List(Medium))
 + 100. [Same Tree](./100-Same-Tree(Easy))
 + 105. [Construct Binary Tree from Preorder and Inorder Traversal](./105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal(Medium))
 + 110. [Balanced Binary Tree](./110-Balanced-Binary-Tree(Easy))
