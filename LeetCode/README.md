@@ -54,6 +54,7 @@
 + 122. [Best Time to Buy and Sell Stock II](./122-Best-Time-to-Buy-and-Sell-Stock-II(Easy))
 + 144. [Binary Tree Preorder Traversal](./144-Binary-Tree-Preorder-Traversal(Medium))
 + 145. [Binary Tree Postorder Traversal](./145-Binary-Tree-Postorder-Traversal(Hard))
++ 146. [LRU Cache](./146-LRU-Cache(Hard))
 + 153. [Find Minimum in Rotated Sorted Array](./153-Find-Minimum-in-Rotated-Sorted-Array(Medium))
 + 275. [H index II](./275-H-index-II(Medium))
 + 300. [Longest Increasing Subsequence](./300-Longest-Increasing-Subsequence(Medium))
