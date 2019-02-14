@@ -54,6 +54,7 @@
 + 114. [Flatten BInary Tree to Linked List](./114-Flatten-BInary-Tree-to-Linked-List(Medium))
 + 118. [Pascal Triangle](./118-Pascal-Triangle(Easy))
 + 119. [Pascal Triangle II](./119-Pascal-Triangle-II(Easy))
++ 120. [Triangle](./120-Triangle(Medium))
 + 121. [Best Time to Buy and Sell Stock](./121-Best-Time-to-Buy-and-Sell-Stock(Easy))
 + 122. [Best Time to Buy and Sell Stock II](./122-Best-Time-to-Buy-and-Sell-Stock-II(Easy))
 + 134. [Gas Station](./134-Gas-Station(Medium))
