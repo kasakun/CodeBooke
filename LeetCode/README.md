@@ -62,6 +62,7 @@
 + 131. [Palindrome Partitioning](./131-Palindrome-Partitioning(Medium))
 + 133. [Clone Graph](./133-Graph-Clone(Medium))
 + 134. [Gas Station](./134-Gas-Station(Medium))
++ 143. [Reorder List](./143-Reorder-List(Medium))
 + 144. [Binary Tree Preorder Traversal](./144-Binary-Tree-Preorder-Traversal(Medium))
 + 145. [Binary Tree Postorder Traversal](./145-Binary-Tree-Postorder-Traversal(Hard))
 + 146. [LRU Cache](./146-LRU-Cache(Hard))
