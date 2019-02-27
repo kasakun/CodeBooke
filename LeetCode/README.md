@@ -20,6 +20,7 @@
 + 29. [Divide Two Integers](./29-Divide-Two-Integers(Medium))
 + 31. [Next Permutation](./31-Next-Permutation(Medium))
 + 35. [Search Insert Position](./35-Search-Insert-Position(Easy))
++ 39. [Combination Sum](./39-Combination-Sum(Medium))
 + 50. [Pow(x, n)](./50-Pow(x,n)(Medium))
 + 51. [N Queens](./51-N-Queens(Hard))
 + 52. [N Queens II](./52-N-Queens-II(Hard))
