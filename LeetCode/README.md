@@ -42,6 +42,7 @@
 + 75. [Sort Colors](./75-Sort-Colors(Medium))
 + 77. [Combinations](./77-Combinations(Medium))
 + 78. [Subsets](./78-Subsets(Medium))
++ 79. [Word Search](./79-Word-Search(Medium))
 + 80. [Remove Duplicates from Sorted Array II](./80-Remove-Duplicates-from-Sorted-Array-II(Medium))
 + 81. [Search in Rotated Sorted Array II](./81-Search-in-Rotated-Sorted-Array-II(Medium))
 + 86. [Partition List](./86-Partition-List(Medium))
