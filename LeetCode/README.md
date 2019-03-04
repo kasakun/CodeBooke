@@ -75,6 +75,7 @@
 + 153. [Find Minimum in Rotated Sorted Array](./153-Find-Minimum-in-Rotated-Sorted-Array(Medium))
 + 165. [Compare Version Numbers](165-Compare-Version-Numbers(Medium))
 + 216. [Combination Sum III](./216-Combination-Sum-III(Medium))
++ 230. [Kth Smallest Element in a BST](./230-Kth-Smallest-Element-in-a-BST(Medium))
 + 275. [H index II](./275-H-index-II(Medium))
 + 289. [Game of Life](./289-Game-of-Life(Medium))
 + 300. [Longest Increasing Subsequence](./300-Longest-Increasing-Subsequence(Medium))
