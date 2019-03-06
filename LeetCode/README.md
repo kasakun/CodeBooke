@@ -81,3 +81,4 @@
 + 275. [H index II](./275-H-index-II(Medium))
 + 289. [Game of Life](./289-Game-of-Life(Medium))
 + 300. [Longest Increasing Subsequence](./300-Longest-Increasing-Subsequence(Medium))
++ 669. [Trim a Binary Search Tree](./669-Trim-a-Binary-Search-Tree(Easy))
