@@ -78,6 +78,7 @@
 + 226. [Invert Binary Tree](./226-Invert-BInary-Tree(Easy))
 + 230. [Kth Smallest Element in a BST](./230-Kth-Smallest-Element-in-a-BST(Medium))
 + 235. [Lowest Common Ancestor of a Binary Search Tree](./235-Lowest-Common-Ancestor-of-a-Binary-Search-Tree(Medium))
++ 257. [Binary Tree Paths](./257-Binary-Tree-Paths(Easy))
 + 275. [H index II](./275-H-index-II(Medium))
 + 289. [Game of Life](./289-Game-of-Life(Medium))
 + 300. [Longest Increasing Subsequence](./300-Longest-Increasing-Subsequence(Medium))
