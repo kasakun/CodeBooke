@@ -82,6 +82,7 @@
 + 263. [Ugly Number](./263-Ugly-Number(Easy))
 + 264. [Ugly Number II](./263-Ugly-Number-II(Medium))
 + 275. [H index II](./275-H-index-II(Medium))
++ 279. [Perfect Squares](./279-Perfect-Squares(Medium))
 + 289. [Game of Life](./289-Game-of-Life(Medium))
 + 300. [Longest Increasing Subsequence](./300-Longest-Increasing-Subsequence(Medium))
 + 669. [Trim a Binary Search Tree](./669-Trim-a-Binary-Search-Tree(Easy))
