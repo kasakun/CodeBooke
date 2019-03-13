@@ -80,6 +80,7 @@
 + 226. [Invert Binary Tree](./226-Invert-BInary-Tree(Easy))
 + 230. [Kth Smallest Element in a BST](./230-Kth-Smallest-Element-in-a-BST(Medium))
 + 235. [Lowest Common Ancestor of a Binary Search Tree](./235-Lowest-Common-Ancestor-of-a-Binary-Search-Tree(Medium))
++ 241. [Different Ways to Add Parentheses](./241-Different-Ways-to-Add-Parentheses(Medium))
 + 257. [Binary Tree Paths](./257-Binary-Tree-Paths(Easy))
 + 263. [Ugly Number](./263-Ugly-Number(Easy))
 + 264. [Ugly Number II](./263-Ugly-Number-II(Medium))
