@@ -20,6 +20,7 @@
 + 29. [Divide Two Integers](./29-Divide-Two-Integers(Medium))
 + 31. [Next Permutation](./31-Next-Permutation(Medium))
 + 35. [Search Insert Position](./35-Search-Insert-Position(Easy))
++ 36. [Valid Sodoku](./36-Valid-Sodoku(Medium))
 + 39. [Combination Sum](./39-Combination-Sum(Medium))
 + 40. [Combination Sum II](./40-Combination-Sum-II(Medium))
 + 45. [Jump Game II](./46-Jump-Game-II(Hard))
