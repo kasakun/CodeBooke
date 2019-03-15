@@ -23,6 +23,7 @@
 + 36. [Valid Sodoku](./36-Valid-Sodoku(Medium))
 + 39. [Combination Sum](./39-Combination-Sum(Medium))
 + 40. [Combination Sum II](./40-Combination-Sum-II(Medium))
++ 43. [Multiply Strings](./43-Multiply-Strings(Medium))
 + 45. [Jump Game II](./46-Jump-Game-II(Hard))
 + 50. [Pow(x, n)](./50-Pow(x,n)(Medium))
 + 51. [N Queens](./51-N-Queens(Hard))
