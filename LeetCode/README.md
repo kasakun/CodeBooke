@@ -96,5 +96,6 @@
 + 338. [Counting Bits](./338-Counting-Bits(Meduim))
 + 343. [Integer Break](./343-Integer-Break(Medium))
 + 344. [Reverse String](./344-Reverse-String(Easy))
++ 357. [Count Numbers with Unique Digits](./357-Count-Numbers-with-Unique-Digits(Medium))
 + 669. [Trim a Binary Search Tree](./669-Trim-a-Binary-Search-Tree(Easy))
 + 802. [Find Eventual Safe States](./802-Find-Eventual-Safe-States(Medium))
