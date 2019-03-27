@@ -9,7 +9,7 @@ class Solution {
         
         // get the rightmost set bit
         // two distinct number is different at this bit. 0 or 1
-        factor ^= -factor;
+        factor &= -factor;
         
         for (int num : nums) {
            if ((factor & num) == 0) {
