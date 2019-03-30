@@ -52,6 +52,7 @@
 + 89. [Gray Code](./89-Gray-Code(Medium))
 + 94. [Binary Tree Inorder Traversal(Medium)](./94-Binary-Tree-Inorder-Traversal(Medium))
 + 98. [Validate Binary Search Tree](./98-Validate-Binary-Search-Tree(Medium))
++ 99. [Recover Binary Search Tree](./99-Recover-Binary-Search-Tree(Hard))
 + 100. [Same Tree](./100-Same-Tree(Easy))
 + 102. [Binary Tree Level Order Traversal](./102-Binary-Tree-Level-Order-Traversal(Medium))
 + 105. [Construct Binary Tree from Preorder and Inorder Traversal](./105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal(Medium))
