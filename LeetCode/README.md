@@ -108,6 +108,7 @@
 + 386. [Lexicographical Numbers](./386-Lexicographical-Numbers(Medium))
 + 391. [Integer Replacement](./397-Integer-Replacement(Medium))
 + 402. [Remove K Digits](./402-Remove-K-Digits(Medium))
++ 424. [Longest Repeating Character Replacement](./424-Longest-Repeating-Character-Replacement(Medium))
 + 451. [Sort Characters By Frequency](./451-Sort-Characters-By-Frequency(Medium))
 + 669. [Trim a Binary Search Tree](./669-Trim-a-Binary-Search-Tree(Easy))
 + 802. [Find Eventual Safe States](./802-Find-Eventual-Safe-States(Medium))
