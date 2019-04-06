@@ -112,3 +112,4 @@
 + 451. [Sort Characters By Frequency](./451-Sort-Characters-By-Frequency(Medium))
 + 669. [Trim a Binary Search Tree](./669-Trim-a-Binary-Search-Tree(Easy))
 + 802. [Find Eventual Safe States](./802-Find-Eventual-Safe-States(Medium))
++ 1004. [Max Consecutive Ones III](./1004-Max-Consecutive-Ones-III(Medium))
