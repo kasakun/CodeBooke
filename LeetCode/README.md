@@ -107,6 +107,7 @@
 + 357. [Count Numbers with Unique Digits](./357-Count-Numbers-with-Unique-Digits(Medium))
 + 386. [Lexicographical Numbers](./386-Lexicographical-Numbers(Medium))
 + 391. [Integer Replacement](./397-Integer-Replacement(Medium))
++ 395. [Longest Substring with At Least K Repeating Characters](./395-Longest-Substring-with-At-Least-K-Repeating-Characters(Medium))
 + 402. [Remove K Digits](./402-Remove-K-Digits(Medium))
 + 416. [Partition Equal Subset Sum](./416-Partition-Equal-Subset-Sum(Medium))
 + 424. [Longest Repeating Character Replacement](./424-Longest-Repeating-Character-Replacement(Medium))
