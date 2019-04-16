@@ -25,6 +25,7 @@
 + 40. [Combination Sum II](./40-Combination-Sum-II(Medium))
 + 43. [Multiply Strings](./43-Multiply-Strings(Medium))
 + 45. [Jump Game II](./46-Jump-Game-II(Hard))
++ 48. [Rotate Image](./48-Rotate-Image(Medium))
 + 50. [Pow(x, n)](./50-Pow(x,n)(Medium))
 + 51. [N Queens](./51-N-Queens(Hard))
 + 52. [N Queens II](./52-N-Queens-II(Hard))
