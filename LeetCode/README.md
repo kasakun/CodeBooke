@@ -50,6 +50,7 @@
 + 80. [Remove Duplicates from Sorted Array II](./80-Remove-Duplicates-from-Sorted-Array-II(Medium))
 + 81. [Search in Rotated Sorted Array II](./81-Search-in-Rotated-Sorted-Array-II(Medium))
 + 86. [Partition List](./86-Partition-List(Medium))
++ 88. [Merge Sorted Array](./88-Merge-Sorted-Array(Easy))
 + 89. [Gray Code](./89-Gray-Code(Medium))
 + 90. [Subsets II](./90-Subsets-II(Medium))
 + 92. [Reverse Linked List II](./92-Reverse-Linked-List-II(Medium))
