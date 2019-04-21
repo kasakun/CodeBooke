@@ -9,7 +9,7 @@
  *
  * Recursion
  */
-class Solution {
+class Solution1 {
     private List<TreeNode> generateTreesHelper(int start, int end) {
         List<TreeNode> res = new ArrayList<>();
         if (start > end) {
