@@ -60,6 +60,7 @@
 + 98. [Validate Binary Search Tree](./98-Validate-Binary-Search-Tree(Medium))
 + 99. [Recover Binary Search Tree](./99-Recover-Binary-Search-Tree(Hard))
 + 100. [Same Tree](./100-Same-Tree(Easy))
++ 101. [Symmetric Tree](./101-Symmetric-Tree(Medium))
 + 102. [Binary Tree Level Order Traversal](./102-Binary-Tree-Level-Order-Traversal(Medium))
 + 105. [Construct Binary Tree from Preorder and Inorder Traversal](./105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal(Medium))
 + 110. [Balanced Binary Tree](./110-Balanced-Binary-Tree(Easy))
