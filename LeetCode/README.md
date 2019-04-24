@@ -88,6 +88,7 @@
 + 152. [Maximum Product Subarray](./152-Maximum-Product-Subarray(Medium))
 + 153. [Find Minimum in Rotated Sorted Array](./153-Find-Minimum-in-Rotated-Sorted-Array(Medium))
 + 165. [Compare Version Numbers](165-Compare-Version-Numbers(Medium))
++ 169. [Majority Element](./169-Majority-Element(Easy))
 + 198. [House Robber](./198-House-Robber(Easy))
 + 213. [House Robber II](./213-House-Robber-II(Medium))
 + 216. [Combination Sum III](./216-Combination-Sum-III(Medium))
