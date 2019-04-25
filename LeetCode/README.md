@@ -93,6 +93,7 @@
 + 213. [House Robber II](./213-House-Robber-II(Medium))
 + 216. [Combination Sum III](./216-Combination-Sum-III(Medium))
 + 226. [Invert Binary Tree](./226-Invert-BInary-Tree(Easy))
++ 229. [Majority Element](./229-Majority-Element-II(Medium))
 + 230. [Kth Smallest Element in a BST](./230-Kth-Smallest-Element-in-a-BST(Medium))
 + 235. [Lowest Common Ancestor of a Binary Search Tree](./235-Lowest-Common-Ancestor-of-a-Binary-Search-Tree(Medium))
 + 241. [Different Ways to Add Parentheses](./241-Different-Ways-to-Add-Parentheses(Medium))
