@@ -132,4 +132,5 @@
 + 698. [Partition to K Equal Sum Subsets](./698-Partition-to-K-Equal-Sum-Subsets(Medium))
 + 802. [Find Eventual Safe States](./802-Find-Eventual-Safe-States(Medium))
 + 993. [Cousins in Binary Tree](./993-Cousins-in-Binary-Tree(Easy))
++ 994. [Rotting Oranges](./994-Rotting-Oranges(Easy))
 + 1004. [Max Consecutive Ones III](./1004-Max-Consecutive-Ones-III(Medium))
