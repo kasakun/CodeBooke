@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :140 :lollipop:**Easy**: 28 :chocolate_bar:**Medium**: 103 :birthday:**Hard**: 9
+:guardsman:**Solved** :141 :lollipop:**Easy**: 28 :chocolate_bar:**Medium**: 104 :birthday:**Hard**: 9
 
 |#|Problems|Level|
 |---|----------|---|
@@ -130,6 +130,7 @@
 |395|[Longest Substring with At Least K Repeating Characters](./395-Longest-Substring-with-At-Least-K-Repeating-Characters(Medium))|Medium|
 |397|[Integer Replacement](./397-Integer-Replacement(Medium))|Medium|
 |402|[Remove K Digits](./402-Remove-K-Digits(Medium))|Medium|
+|406|[Queue Reconstruction by Height](./406-Queue-Reconstruction-by-Height(Medium))|Medium|
 |416|[Partition Equal Subset Sum](./416-Partition-Equal-Subset-Sum(Medium))|Medium|
 |424|[Longest Repeating Character Replacement](./424-Longest-Repeating-Character-Replacement(Medium))|Medium|
 |450|[Delete Node in BST](./450-Delete-Node-in-BST(Medium))|Medium|
