@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :143 :lollipop:**Easy**: 28 :chocolate_bar:**Medium**: 106 :birthday:**Hard**: 9
+:guardsman:**Solved** :144 :lollipop:**Easy**: 28 :chocolate_bar:**Medium**: 107 :birthday:**Hard**: 9
 
 |#|Problems|Level|
 |---|----------|---|
@@ -98,6 +98,7 @@
 |169|[Majority Element](./169-Majority-Element(Easy))|Easy|
 |179|[Largest Number](./179-Largest-Number(Medium))|Medium|
 |198|[House Robber](./198-House-Robber(Easy))|Easy|
+|209|[Minimum Size Subarray Sum](./209-Minimum-Size-Subarray-Sum(Medium))|Medium|
 |213|[House Robber II](./213-House-Robber-II(Medium))|Medium|
 |216|[Combination Sum III](./216-Combination-Sum-III(Medium))|Medium|
 |226|[Invert Binary Tree](./226-Invert-Binary-Tree(Easy))|Easy|
