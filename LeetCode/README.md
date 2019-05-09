@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :144 :lollipop:**Easy**: 28 :chocolate_bar:**Medium**: 107 :birthday:**Hard**: 9
+:guardsman:**Solved** :145 :lollipop:**Easy**: 28 :chocolate_bar:**Medium**: 108 :birthday:**Hard**: 9
 
 |#|Problems|Level|
 |---|----------|---|
@@ -141,6 +141,7 @@
 |474|[Ones and Zeros](./474-Ones-and-Zeros(Medium))|Medium|
 |494|[Target Sum](./494-Target-Sum(Medium))|Medium|
 |518|[Coin Change 2](./518-Coin-Change-2(Medium))|Medium|
+|565|[Array Nesting](./565-Array-Nesting(Medium))|Medium|
 |669|[Trim a Binary Search Tree](./669-Trim-a-Binary-Search-Tree(Easy))|Easy|
 |698|[Partition to K Equal Sum Subsets](./698-Partition-to-K-Equal-Sum-Subsets(Medium))|Medium|
 |700|[Search in a Binary Search Tree](./700-Search-in-a-Binary-Search-Tree(Easy))|Easy|
