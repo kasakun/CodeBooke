@@ -1,5 +1,14 @@
 /**
  * dp
+ * 
+ * dp[i][j][k] represents maximum of ith string using j zeros and k ones
+ * 
+ * if we can pick ith string.
+ * max will be the larger of 
+ *  a.dp[i - 1][j][k](we dont pick it since previous one is larger)
+ *  b.dp[i - 1][j - zeroNum][k - oneNum](we finaly pick it)
+ * 
+ * otherwise we cannot pick it, just make it as previous result.
  */
 class Solution {
     int[] ones, zeros;
