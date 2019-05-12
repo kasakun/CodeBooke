@@ -2,10 +2,11 @@
 
 ## Problems
 
-:guardsman:**Solved** :153 :lollipop:**Easy**: 31 :chocolate_bar:**Medium**: 113 :birthday:**Hard**: 9
+:guardsman:**Solved** :154 :lollipop:**Easy**: 32 :chocolate_bar:**Medium**: 113 :birthday:**Hard**: 9
 
 |#|Problems|Level|
 |---|----------|---|
+|1|[Two Sum](./1-Two-Sum(Easy))|Easy|
 |2|[Add Two Numbers](./2-Add-Two-Numbers(Medium))|Medium|
 |3|[Longest Substring Without Repeating Characters](./3-Longest-Substring-Without-Repeating-Characters(Medium))|Medium|
 |4|[Median of Two Sorted Arrays](./4-Median-of-Two-Sorted-Arrays(Hard))|Hard|
