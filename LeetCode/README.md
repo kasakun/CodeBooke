@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :158 :lollipop:**Easy**: 32 :chocolate_bar:**Medium**: 117 :birthday:**Hard**: 9
+:guardsman:**Solved** :159 :lollipop:**Easy**: 33 :chocolate_bar:**Medium**: 117 :birthday:**Hard**: 9
 
 |#|Problems|Level|
 |---|----------|---|
@@ -57,6 +57,7 @@
 |80|[Remove Duplicates from Sorted Array II](./80-Remove-Duplicates-from-Sorted-Array-II(Medium))|Medium|
 |81|[Search in Rotated Sorted Array II](./81-Search-in-Rotated-Sorted-Array-II(Medium))|Medium|
 |82|[Remove Duplicates from Sorted List II](./82-Remove-Duplicates-from-Sorted-List-II(Medium))|Medium|
+|83|[Remove Duplicates from Sorted List](./83-Remove-Duplicates-from-Sorted-List(Easy))|Easy|
 |86|[Partition List](./86-Partition-List(Medium))|Medium|
 |88|[Merge Sorted Array](./88-Merge-Sorted-Array(Easy))|Easy|
 |89|[Gray Code](./89-Gray-Code(Medium))|Medium|
