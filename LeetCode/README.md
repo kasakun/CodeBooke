@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :161 :lollipop:**Easy**: 33 :chocolate_bar:**Medium**: 119 :birthday:**Hard**: 9
+:guardsman:**Solved** :162 :lollipop:**Easy**: 34 :chocolate_bar:**Medium**: 119 :birthday:**Hard**: 9
 
 |#|Problems|Level|
 |---|----------|---|
@@ -139,6 +139,7 @@
 |377|[Combination Sum IV](./377-Combination-Sum-IV(Medium))|Medium|
 |378|[Kth Smallest Element in a Sorted Matrix](./378-Kth-Smallest-Element-in-a-Sorted-Matrix(Medium))|Medium|
 |386|[Lexicographical Numbers](./386-Lexicographical-Numbers(Medium))|Medium|
+|389|[Find the Difference](./389-Find-the-Difference(Easy))|Easy|
 |392|[Is Subsequence](./392-Is-Subsequence(Medium))|Medium|
 |395|[Longest Substring with At Least K Repeating Characters](./395-Longest-Substring-with-At-Least-K-Repeating-Characters(Medium))|Medium|
 |397|[Integer Replacement](./397-Integer-Replacement(Medium))|Medium|
