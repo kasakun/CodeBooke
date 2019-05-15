@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :160 :lollipop:**Easy**: 33 :chocolate_bar:**Medium**: 118 :birthday:**Hard**: 9
+:guardsman:**Solved** :161 :lollipop:**Easy**: 33 :chocolate_bar:**Medium**: 119 :birthday:**Hard**: 9
 
 |#|Problems|Level|
 |---|----------|---|
@@ -135,6 +135,7 @@
 |347|[Top K Frequent Elements](./347-Top-K-Frequent-Elements(Medium))|Medium|
 |357|[Count Numbers with Unique Digits](./357-Count-Numbers-with-Unique-Digits(Medium))|Medium|
 |368|[Largest Divisible Subset](./368-Largest-Divisible-Subset(Medium))|Medium|
+|373|[Find K Pairs with Smallest Sums](./373-Find-K-Pairs-with-Smallest-Sums(Medium))|Medium|
 |377|[Combination Sum IV](./377-Combination-Sum-IV(Medium))|Medium|
 |378|[Kth Smallest Element in a Sorted Matrix](./378-Kth-Smallest-Element-in-a-Sorted-Matrix(Medium))|Medium|
 |386|[Lexicographical Numbers](./386-Lexicographical-Numbers(Medium))|Medium|
