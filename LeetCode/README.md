@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :164 :lollipop:**Easy**: 34 :chocolate_bar:**Medium**: 121 :birthday:**Hard**: 9
+:guardsman:**Solved** :165 :lollipop:**Easy**: 34 :chocolate_bar:**Medium**: 121 :birthday:**Hard**: 10
 
 |#|Problems|Level|
 |---|----------|---|
@@ -30,6 +30,7 @@
 |36|[Valid Sodoku](./36-Valid-Sodoku(Medium))|Medium|
 |39|[Combination Sum](./39-Combination-Sum(Medium))|Medium|
 |40|[Combination Sum II](./40-Combination-Sum-II(Medium))|Medium|
+|41|[First Missing Positive](./41-First-Missing-Positive(Hard))|Hard|
 |43|[Multiply Strings](./43-Multiply-Strings(Medium))|Medium|
 |45|[Jump Game II](./45-Jump-Game-II(Hard))|Hard|
 |48|[Rotate Image](./48-Rotate-Image(Medium))|Medium|
