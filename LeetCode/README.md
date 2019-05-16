@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :163 :lollipop:**Easy**: 34 :chocolate_bar:**Medium**: 120 :birthday:**Hard**: 9
+:guardsman:**Solved** :164 :lollipop:**Easy**: 34 :chocolate_bar:**Medium**: 121 :birthday:**Hard**: 9
 
 |#|Problems|Level|
 |---|----------|---|
@@ -33,6 +33,7 @@
 |43|[Multiply Strings](./43-Multiply-Strings(Medium))|Medium|
 |45|[Jump Game II](./45-Jump-Game-II(Hard))|Hard|
 |48|[Rotate Image](./48-Rotate-Image(Medium))|Medium|
+|49|[Group Anagrams](./49-Group-Anagrams(Medium))|Medium|
 |50|[Pow(x,n)](./50-Pow(x,n)(Medium))|Medium|
 |51|[N Queens](./51-N-Queens(Hard))|Hard|
 |52|[N Queens II](./52-N-Queens-II(Hard))|Hard|
