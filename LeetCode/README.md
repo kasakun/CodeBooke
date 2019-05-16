@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :162 :lollipop:**Easy**: 34 :chocolate_bar:**Medium**: 119 :birthday:**Hard**: 9
+:guardsman:**Solved** :163 :lollipop:**Easy**: 34 :chocolate_bar:**Medium**: 120 :birthday:**Hard**: 9
 
 |#|Problems|Level|
 |---|----------|---|
@@ -150,6 +150,7 @@
 |450|[Delete Node in BST](./450-Delete-Node-in-BST(Medium))|Medium|
 |451|[Sort Characters By Frequency](./451-Sort-Characters-By-Frequency(Medium))|Medium|
 |454|[4Sum II](./454-4Sum-II(Medium))|Medium|
+|468|[Validate IP Address](./468-Validate-IP-Address(Medium))|Medium|
 |474|[Ones and Zeros](./474-Ones-and-Zeros(Medium))|Medium|
 |494|[Target Sum](./494-Target-Sum(Medium))|Medium|
 |518|[Coin Change 2](./518-Coin-Change-2(Medium))|Medium|
