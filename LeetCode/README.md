@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :166 :lollipop:**Easy**: 34 :chocolate_bar:**Medium**: 122 :birthday:**Hard**: 10
+:guardsman:**Solved** :167 :lollipop:**Easy**: 34 :chocolate_bar:**Medium**: 123 :birthday:**Hard**: 10
 
 |#|Problems|Level|
 |---|----------|---|
@@ -167,6 +167,7 @@
 |700|[Search in a Binary Search Tree](./700-Search-in-a-Binary-Search-Tree(Easy))|Easy|
 |701|[Insert into Binary Search Tree](./701-Insert-into-Binary-Search-Tree(Medium))|Medium|
 |729|[My Calendar I](./729-My-Calendar-I(Medium))|Medium|
+|767|[Reorganize String](./767-Reorganize-String(Medium))|Medium|
 |797|[All Paths From Source to Target](./797-All-Paths-From-Source-to-Target(Medium))|Medium|
 |802|[Find Eventual Safe States](./802-Find-Eventual-Safe-States(Medium))|Medium|
 |993|[Cousins in Binary Tree](./993-Cousins-in-Binary-Tree(Easy))|Easy|
