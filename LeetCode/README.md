@@ -123,7 +123,7 @@
 |260|[Single Number III](./260-Single-Number-III(Medium))|Medium|
 |263|[Ugly Number](./263-Ugly-Number(Easy))|Easy|
 |264|[Ugly Number II](./264-Ugly-Number-II(Medium))|Medium|
-|275|[H index II](./275-H-index-II(Medium))|Medium|
+|275|[H Index II](./275-H-Index-II(Medium))|Medium|
 |279|[Perfect Squares](./279-Perfect-Squares(Medium))|Medium|
 |283|[Move Zeros](./283-Move-Zeros(Easy))|Easy|
 |287|[Find the Duplicate Number](./287-Find-the-Duplicate-Number(Medium))|Medium|
