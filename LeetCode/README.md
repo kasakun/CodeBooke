@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :172 :lollipop:**Easy**: 36 :chocolate_bar:**Medium**: 125 :birthday:**Hard**: 11
+:guardsman:**Solved** :173 :lollipop:**Easy**: 37 :chocolate_bar:**Medium**: 125 :birthday:**Hard**: 11
 
 |#|Problems|Level|
 |---|----------|---|
@@ -124,6 +124,7 @@
 |263|[Ugly Number](./263-Ugly-Number(Easy))|Easy|
 |264|[Ugly Number II](./264-Ugly-Number-II(Medium))|Medium|
 |275|[H Index II](./275-H-Index-II(Medium))|Medium|
+|278|[First Bad Version](./278-First-Bad-Version(Easy))|Easy|
 |279|[Perfect Squares](./279-Perfect-Squares(Medium))|Medium|
 |283|[Move Zeros](./283-Move-Zeros(Easy))|Easy|
 |287|[Find the Duplicate Number](./287-Find-the-Duplicate-Number(Medium))|Medium|
