@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :173 :lollipop:**Easy**: 37 :chocolate_bar:**Medium**: 125 :birthday:**Hard**: 11
+:guardsman:**Solved** :174 :lollipop:**Easy**: 37 :chocolate_bar:**Medium**: 126 :birthday:**Hard**: 11
 
 |#|Problems|Level|
 |---|----------|---|
@@ -113,6 +113,7 @@
 |209|[Minimum Size Subarray Sum](./209-Minimum-Size-Subarray-Sum(Medium))|Medium|
 |213|[House Robber II](./213-House-Robber-II(Medium))|Medium|
 |216|[Combination Sum III](./216-Combination-Sum-III(Medium))|Medium|
+|222|[Count Complete Tree Nodes](./222-Count-Complete-Tree-Nodes(Medium))|Medium|
 |226|[Invert Binary Tree](./226-Invert-Binary-Tree(Easy))|Easy|
 |229|[Majority Element II](./229-Majority-Element-II(Medium))|Medium|
 |230|[Kth Smallest Element in a BST](./230-Kth-Smallest-Element-in-a-BST(Medium))|Medium|
