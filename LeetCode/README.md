@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :171 :lollipop:**Easy**: 35 :chocolate_bar:**Medium**: 125 :birthday:**Hard**: 11
+:guardsman:**Solved** :172 :lollipop:**Easy**: 36 :chocolate_bar:**Medium**: 125 :birthday:**Hard**: 11
 
 |#|Problems|Level|
 |---|----------|---|
@@ -102,6 +102,7 @@
 |148|[Sort List](./148-Sort-List(Medium))|Medium|
 |152|[Maximum Product Subarray](./152-Maximum-Product-Subarray(Medium))|Medium|
 |153|[Find Minimum in Rotated Sorted Array](./153-Find-Minimum-in-Rotated-Sorted-Array(Medium))|Medium|
+|160|[Intersection of Two Linked Lists](./160-Intersection-of-Two-Linked-Lists(Easy))|Easy|
 |162|[Find Peak Element](./162-Find-Peak-Element(Medium))|Medium|
 |165|[Compare Version Numbers](./165-Compare-Version-Numbers(Medium))|Medium|
 |169|[Majority Element](./169-Majority-Element(Easy))|Easy|
