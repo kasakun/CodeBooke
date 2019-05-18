@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :168 :lollipop:**Easy**: 34 :chocolate_bar:**Medium**: 124 :birthday:**Hard**: 10
+:guardsman:**Solved** :169 :lollipop:**Easy**: 34 :chocolate_bar:**Medium**: 124 :birthday:**Hard**: 11
 
 |#|Problems|Level|
 |---|----------|---|
@@ -87,6 +87,7 @@
 |120|[Triangle](./120-Triangle(Medium))|Medium|
 |121|[Best Time to Buy and Sell Stock](./121-Best-Time-to-Buy-and-Sell-Stock(Easy))|Easy|
 |122|[Best Time to Buy and Sell Stock II](./122-Best-Time-to-Buy-and-Sell-Stock-II(Easy))|Easy|
+|126|[Word Ladder II](./126-Word-Ladder-II(Hard))|Hard|
 |127|[Word Ladder](./127-Word-Ladder(Medium))|Medium|
 |129|[Sum Root to Leaf Numbers](./129-Sum-Root-to-Leaf-Numbers(Medium))|Medium|
 |131|[Palindrome Partitioning](./131-Palindrome-Partitioning(Medium))|Medium|
