@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :170 :lollipop:**Easy**: 35 :chocolate_bar:**Medium**: 124 :birthday:**Hard**: 11
+:guardsman:**Solved** :171 :lollipop:**Easy**: 35 :chocolate_bar:**Medium**: 125 :birthday:**Hard**: 11
 
 |#|Problems|Level|
 |---|----------|---|
@@ -106,6 +106,7 @@
 |165|[Compare Version Numbers](./165-Compare-Version-Numbers(Medium))|Medium|
 |169|[Majority Element](./169-Majority-Element(Easy))|Easy|
 |179|[Largest Number](./179-Largest-Number(Medium))|Medium|
+|187|[Repeated DNA Sequences](./187-Repeated-DNA-Sequences(Medium))|Medium|
 |198|[House Robber](./198-House-Robber(Easy))|Easy|
 |202|[Happy Number](./202-Happy-Number(Easy))|Easy|
 |209|[Minimum Size Subarray Sum](./209-Minimum-Size-Subarray-Sum(Medium))|Medium|
