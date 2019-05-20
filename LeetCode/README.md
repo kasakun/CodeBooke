@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :176 :lollipop:**Easy**: 37 :chocolate_bar:**Medium**: 128 :birthday:**Hard**: 11
+:guardsman:**Solved** :177 :lollipop:**Easy**: 37 :chocolate_bar:**Medium**: 129 :birthday:**Hard**: 11
 
 |#|Problems|Level|
 |---|----------|---|
@@ -110,6 +110,7 @@
 |173|[Binary Search Tree Iterator](./173-Binary-Search-Tree-Iterator(Medium))|Medium|
 |179|[Largest Number](./179-Largest-Number(Medium))|Medium|
 |187|[Repeated DNA Sequences](./187-Repeated-DNA-Sequences(Medium))|Medium|
+|190|[Reverse Bits](./190-Reverse-Bits(Medium))|Medium|
 |198|[House Robber](./198-House-Robber(Easy))|Easy|
 |202|[Happy Number](./202-Happy-Number(Easy))|Easy|
 |209|[Minimum Size Subarray Sum](./209-Minimum-Size-Subarray-Sum(Medium))|Medium|
