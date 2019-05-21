@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :178 :lollipop:**Easy**: 37 :chocolate_bar:**Medium**: 130 :birthday:**Hard**: 11
+:guardsman:**Solved** :179 :lollipop:**Easy**: 37 :chocolate_bar:**Medium**: 131 :birthday:**Hard**: 11
 
 |#|Problems|Level|
 |---|----------|---|
@@ -114,6 +114,7 @@
 |198|[House Robber](./198-House-Robber(Easy))|Easy|
 |201|[Bitwise AND of Numbers Range](./201-Bitwise-AND-of-Numbers-Range(Medium))|Medium|
 |202|[Happy Number](./202-Happy-Number(Easy))|Easy|
+|207|[Course Schedule](./207-Course-Schedule(Medium))|Medium|
 |209|[Minimum Size Subarray Sum](./209-Minimum-Size-Subarray-Sum(Medium))|Medium|
 |213|[House Robber II](./213-House-Robber-II(Medium))|Medium|
 |216|[Combination Sum III](./216-Combination-Sum-III(Medium))|Medium|
