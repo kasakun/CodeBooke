@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :180 :lollipop:**Easy**: 37 :chocolate_bar:**Medium**: 133 :birthday:**Hard**: 10
+:guardsman:**Solved** :181 :lollipop:**Easy**: 37 :chocolate_bar:**Medium**: 134 :birthday:**Hard**: 10
 
 |#|Problems|Level|
 |---|----------|---|
@@ -136,6 +136,7 @@
 |283|[Move Zeros](./283-Move-Zeros(Easy))|Easy|
 |287|[Find the Duplicate Number](./287-Find-the-Duplicate-Number(Medium))|Medium|
 |289|[Game of Life](./289-Game-of-Life(Medium))|Medium|
+|299|[Bulls and  Cows](./299-Bulls-and- Cows(Medium))|Medium|
 |300|[Longest Increasing Subsequence](./300-Longest-Increasing-Subsequence(Medium))|Medium|
 |307|[Range Sum Query Mutable](./307-Range-Sum-Query-Mutable(Medium))|Medium|
 |318|[Maximum Product of Word Lengths](./318-Maximum-Product-of-Word-Lengths(Medium))|Medium|
