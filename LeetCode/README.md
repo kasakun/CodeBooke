@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :180 :lollipop:**Easy**: 37 :chocolate_bar:**Medium**: 132 :birthday:**Hard**: 11
+:guardsman:**Solved** :182 :lollipop:**Easy**: 37 :chocolate_bar:**Medium**: 135 :birthday:**Hard**: 10
 
 |#|Problems|Level|
 |---|----------|---|
@@ -119,6 +119,7 @@
 |209|[Minimum Size Subarray Sum](./209-Minimum-Size-Subarray-Sum(Medium))|Medium|
 |213|[House Robber II](./213-House-Robber-II(Medium))|Medium|
 |216|[Combination Sum III](./216-Combination-Sum-III(Medium))|Medium|
+|221|[Maximal Square](./221-Maximal-Square(Medium))|Medium|
 |222|[Count Complete Tree Nodes](./222-Count-Complete-Tree-Nodes(Medium))|Medium|
 |226|[Invert Binary Tree](./226-Invert-Binary-Tree(Easy))|Easy|
 |229|[Majority Element II](./229-Majority-Element-II(Medium))|Medium|
@@ -136,6 +137,7 @@
 |283|[Move Zeros](./283-Move-Zeros(Easy))|Easy|
 |287|[Find the Duplicate Number](./287-Find-the-Duplicate-Number(Medium))|Medium|
 |289|[Game of Life](./289-Game-of-Life(Medium))|Medium|
+|299|[Bulls and  Cows](./299-Bulls-and- Cows(Medium))|Medium|
 |300|[Longest Increasing Subsequence](./300-Longest-Increasing-Subsequence(Medium))|Medium|
 |307|[Range Sum Query Mutable](./307-Range-Sum-Query-Mutable(Medium))|Medium|
 |318|[Maximum Product of Word Lengths](./318-Maximum-Product-of-Word-Lengths(Medium))|Medium|
@@ -143,7 +145,7 @@
 |328|[Odd Even Linked List](./328-Odd-Even-Linked-List(Medium))|Medium|
 |331|[Verify Preorder Serialization of a Binary Tree](./331-Verify-Preorder-Serialization-of-a-Binary-Tree(Medium))|Medium|
 |337|[House Robber III](./337-House-Robber-III(Medium))|Medium|
-|338|[Counting Bits(Meduim)](./338-Counting-Bits(Meduim))|Hard|
+|338|[Counting Bits](./338-Counting-Bits(Medium))|Medium|
 |343|[Integer Break](./343-Integer-Break(Medium))|Medium|
 |344|[Reverse String](./344-Reverse-String(Easy))|Easy|
 |347|[Top K Frequent Elements](./347-Top-K-Frequent-Elements(Medium))|Medium|
