@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :187 :lollipop:**Easy**: 39 :chocolate_bar:**Medium**: 137 :birthday:**Hard**: 11
+:guardsman:**Solved** :188 :lollipop:**Easy**: 39 :chocolate_bar:**Medium**: 138 :birthday:**Hard**: 11
 
 |#|Problems|Level|
 |---|----------|---|
@@ -190,6 +190,7 @@
 |767|[Reorganize String](./767-Reorganize-String(Medium))|Medium|
 |797|[All Paths From Source to Target](./797-All-Paths-From-Source-to-Target(Medium))|Medium|
 |802|[Find Eventual Safe States](./802-Find-Eventual-Safe-States(Medium))|Medium|
+|845|[Longest Mountain in Array](./845-Longest-Mountain-in-Array(Medium))|Medium|
 |993|[Cousins in Binary Tree](./993-Cousins-in-Binary-Tree(Easy))|Easy|
 |994|[Rotting Oranges](./994-Rotting-Oranges(Easy))|Easy|
 |1004|[Max Consecutive Ones III](./1004-Max-Consecutive-Ones-III(Medium))|Medium|
