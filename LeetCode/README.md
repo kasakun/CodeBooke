@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :189 :lollipop:**Easy**: 39 :chocolate_bar:**Medium**: 139 :birthday:**Hard**: 11
+:guardsman:**Solved** :190 :lollipop:**Easy**: 39 :chocolate_bar:**Medium**: 140 :birthday:**Hard**: 11
 
 |#|Problems|Level|
 |---|----------|---|
@@ -186,6 +186,7 @@
 |698|[Partition to K Equal Sum Subsets](./698-Partition-to-K-Equal-Sum-Subsets(Medium))|Medium|
 |700|[Search in a Binary Search Tree](./700-Search-in-a-Binary-Search-Tree(Easy))|Easy|
 |701|[Insert into Binary Search Tree](./701-Insert-into-Binary-Search-Tree(Medium))|Medium|
+|718|[Maximum Length of Repeated Subarray](./718-Maximum-Length-of-Repeated-Subarray(Medium))|Medium|
 |725|[Split Linked List in Parts](./725-Split-Linked-List-in-Parts(Medium))|Medium|
 |729|[My Calendar I](./729-My-Calendar-I(Medium))|Medium|
 |767|[Reorganize String](./767-Reorganize-String(Medium))|Medium|
