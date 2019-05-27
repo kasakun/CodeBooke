@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :191 :lollipop:**Easy**: 39 :chocolate_bar:**Medium**: 141 :birthday:**Hard**: 11
+:guardsman:**Solved** :192 :lollipop:**Easy**: 39 :chocolate_bar:**Medium**: 142 :birthday:**Hard**: 11
 
 |#|Problems|Level|
 |---|----------|---|
@@ -145,6 +145,7 @@
 |322|[Coin Change](./322-Coin-Change(Medium))|Medium|
 |328|[Odd Even Linked List](./328-Odd-Even-Linked-List(Medium))|Medium|
 |331|[Verify Preorder Serialization of a Binary Tree](./331-Verify-Preorder-Serialization-of-a-Binary-Tree(Medium))|Medium|
+|332|[Reconstruct Itinerary](./332-Reconstruct-Itinerary(Medium))|Medium|
 |337|[House Robber III](./337-House-Robber-III(Medium))|Medium|
 |338|[Counting Bits](./338-Counting-Bits(Medium))|Medium|
 |343|[Integer Break](./343-Integer-Break(Medium))|Medium|
