@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :194 :lollipop:**Easy**: 39 :chocolate_bar:**Medium**: 144 :birthday:**Hard**: 11
+:guardsman:**Solved** :195 :lollipop:**Easy**: 39 :chocolate_bar:**Medium**: 145 :birthday:**Hard**: 11
 
 |#|Problems|Level|
 |---|----------|---|
@@ -174,6 +174,7 @@
 |468|[Validate IP Address](./468-Validate-IP-Address(Medium))|Medium|
 |474|[Ones and Zeros](./474-Ones-and-Zeros(Medium))|Medium|
 |494|[Target Sum](./494-Target-Sum(Medium))|Medium|
+|503|[Next Greater Element II](./503-Next-Greater-Element-II(Medium))|Medium|
 |513|[Find Bottom Left Tree Value](./513-Find-Bottom-Left-Tree-Value(Medium))|Medium|
 |518|[Coin Change 2](./518-Coin-Change-2(Medium))|Medium|
 |524|[Longest Word in Dictionary through Deleting](./524-Longest-Word-in-Dictionary-through-Deleting)|Hard|
