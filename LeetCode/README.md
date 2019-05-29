@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :193 :lollipop:**Easy**: 39 :chocolate_bar:**Medium**: 143 :birthday:**Hard**: 11
+:guardsman:**Solved** :194 :lollipop:**Easy**: 39 :chocolate_bar:**Medium**: 144 :birthday:**Hard**: 11
 
 |#|Problems|Level|
 |---|----------|---|
@@ -178,6 +178,7 @@
 |518|[Coin Change 2](./518-Coin-Change-2(Medium))|Medium|
 |524|[Longest Word in Dictionary through Deleting](./524-Longest-Word-in-Dictionary-through-Deleting)|Hard|
 |537|[Complex Number Multiplication](./537-Complex-Number-Multiplication(Medium))|Medium|
+|556|[Next Greater Element III](./556-Next-Greater-Element-III(Medium))|Medium|
 |560|[Subarray Sum Equal K](./560-Subarray-Sum-Equal-K(Medium))|Medium|
 |565|[Array Nesting](./565-Array-Nesting(Medium))|Medium|
 |567|[Permutation in String](./567-Permutation-in-String(Medium))|Medium|
