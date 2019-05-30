@@ -9,7 +9,7 @@
  *    in arr with current element which the len maintains the same.
  * 4. At last, the len will be the longest length of the increasing subsequence.
  */
-Solution2 {
+class Solution2 {
     public int lengthOfLIS(int[] nums) {
         int arr[] = new int[nums.length];
         int len = 0;
