@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :197 :lollipop:**Easy**: 40 :chocolate_bar:**Medium**: 146 :birthday:**Hard**: 11
+:guardsman:**Solved** :198 :lollipop:**Easy**: 40 :chocolate_bar:**Medium**: 147 :birthday:**Hard**: 11
 
 |#|Problems|Level|
 |---|----------|---|
@@ -203,3 +203,4 @@
 |993|[Cousins in Binary Tree](./993-Cousins-in-Binary-Tree(Easy))|Easy|
 |994|[Rotting Oranges](./994-Rotting-Oranges(Easy))|Easy|
 |1004|[Max Consecutive Ones III](./1004-Max-Consecutive-Ones-III(Medium))|Medium|
+|1043|[Partition Array for Maximum Sum](./1043-Partition-Array-for-Maximum-Sum(Medium))|Medium|
