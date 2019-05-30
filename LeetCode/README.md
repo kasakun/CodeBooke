@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :196 :lollipop:**Easy**: 39 :chocolate_bar:**Medium**: 146 :birthday:**Hard**: 11
+:guardsman:**Solved** :197 :lollipop:**Easy**: 40 :chocolate_bar:**Medium**: 146 :birthday:**Hard**: 11
 
 |#|Problems|Level|
 |---|----------|---|
@@ -157,6 +157,7 @@
 |373|[Find K Pairs with Smallest Sums](./373-Find-K-Pairs-with-Smallest-Sums(Medium))|Medium|
 |377|[Combination Sum IV](./377-Combination-Sum-IV(Medium))|Medium|
 |378|[Kth Smallest Element in a Sorted Matrix](./378-Kth-Smallest-Element-in-a-Sorted-Matrix(Medium))|Medium|
+|383|[Ransom Note](./383-Ransom-Note(Easy))|Easy|
 |386|[Lexicographical Numbers](./386-Lexicographical-Numbers(Medium))|Medium|
 |389|[Find the Difference](./389-Find-the-Difference(Easy))|Easy|
 |392|[Is Subsequence](./392-Is-Subsequence(Medium))|Medium|
