@@ -10,6 +10,11 @@ public:
         int left = 0, right = size - 1, left_max = 0, right_max = 0, ans = 0;
         
         while (left < right) {
+            /**
+             * The idea is if height[left] < height[right]
+             * current left must be valid
+             * 
+             */
             if (height[left] < height[right]) {
                 
                 if (height[left] >= left_max)
