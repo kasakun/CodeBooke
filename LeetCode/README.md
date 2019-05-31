@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :198 :lollipop:**Easy**: 40 :chocolate_bar:**Medium**: 147 :birthday:**Hard**: 11
+:guardsman:**Solved** :199 :lollipop:**Easy**: 40 :chocolate_bar:**Medium**: 147 :birthday:**Hard**: 12
 
 |#|Problems|Level|
 |---|----------|---|
@@ -32,6 +32,7 @@
 |39|[Combination Sum](./39-Combination-Sum(Medium))|Medium|
 |40|[Combination Sum II](./40-Combination-Sum-II(Medium))|Medium|
 |41|[First Missing Positive](./41-First-Missing-Positive(Hard))|Hard|
+|42|[Trapping Rain Water](./42-Trapping-Rain-Water(Hard))|Hard|
 |43|[Multiply Strings](./43-Multiply-Strings(Medium))|Medium|
 |45|[Jump Game II](./45-Jump-Game-II(Hard))|Hard|
 |48|[Rotate Image](./48-Rotate-Image(Medium))|Medium|
