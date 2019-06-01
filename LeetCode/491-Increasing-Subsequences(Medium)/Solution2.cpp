@@ -5,7 +5,8 @@ private:
         unordered_set<int> _set;
         
         for (int i = start; i < nums.size(); ++i) {
-            if ((!seq.empty() || nums[i] >= seq.back()) && _set.find(nums[i]) == _set.end()) {
+            if (_set.find(nums[i]) != _set.end()) continue;
+            if (seq.empty() || nums[i] >= seq.back()) {
                 seq.push_back(nums[i]);
                 dfs(nums, res, seq, i + 1);
                 seq.pop_back();
