@@ -1,5 +1,11 @@
 /**
+ * Monoply stack
+ * The idea is push higher h into stack, once a lower h occurs, we go continuing
+ * go back to the much lower one in stack
+ * The key point is to deal with the left bound.
  * 
+ * special case:
+ *  stack is empty: means all left must be higher or curr_pos is 0
  */
 class Solution {
 public:
