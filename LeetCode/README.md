@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :205 :lollipop:**Easy**: 42 :chocolate_bar:**Medium**: 150 :birthday:**Hard**: 13
+:guardsman:**Solved** :206 :lollipop:**Easy**: 42 :chocolate_bar:**Medium**: 151 :birthday:**Hard**: 13
 
 |#|Problems|Level|
 |---|----------|---|
@@ -199,6 +199,7 @@
 |701|[Insert into Binary Search Tree](./701-Insert-into-Binary-Search-Tree(Medium))|Medium|
 |714|[Best Time to Buy Sell with Transaction Fee](./714-Best-Time-to-Buy-Sell-with-Transaction-Fee(Medium))|Medium|
 |718|[Maximum Length of Repeated Subarray](./718-Maximum-Length-of-Repeated-Subarray(Medium))|Medium|
+|721|[Accounts Merge](./721-Accounts-Merge(Medium))|Medium|
 |725|[Split Linked List in Parts](./725-Split-Linked-List-in-Parts(Medium))|Medium|
 |729|[My Calendar I](./729-My-Calendar-I(Medium))|Medium|
 |767|[Reorganize String](./767-Reorganize-String(Medium))|Medium|
