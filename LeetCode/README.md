@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :208 :lollipop:**Easy**: 42 :chocolate_bar:**Medium**: 153 :birthday:**Hard**: 13
+:guardsman:**Solved** :209 :lollipop:**Easy**: 42 :chocolate_bar:**Medium**: 153 :birthday:**Hard**: 14
 
 |#|Problems|Level|
 |---|----------|---|
@@ -148,6 +148,7 @@
 |318|[Maximum Product of Word Lengths](./318-Maximum-Product-of-Word-Lengths(Medium))|Medium|
 |322|[Coin Change](./322-Coin-Change(Medium))|Medium|
 |328|[Odd Even Linked List](./328-Odd-Even-Linked-List(Medium))|Medium|
+|330|[Patching Array](./330-Patching-Array(Hard))|Hard|
 |331|[Verify Preorder Serialization of a Binary Tree](./331-Verify-Preorder-Serialization-of-a-Binary-Tree(Medium))|Medium|
 |332|[Reconstruct Itinerary](./332-Reconstruct-Itinerary(Medium))|Medium|
 |337|[House Robber III](./337-House-Robber-III(Medium))|Medium|
