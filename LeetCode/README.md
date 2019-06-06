@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :211 :lollipop:**Easy**: 42 :chocolate_bar:**Medium**: 155 :birthday:**Hard**: 14
+:guardsman:**Solved** :213 :lollipop:**Easy**: 42 :chocolate_bar:**Medium**: 157 :birthday:**Hard**: 14
 
 |#|Problems|Level|
 |---|----------|---|
@@ -174,6 +174,7 @@
 |416|[Partition Equal Subset Sum](./416-Partition-Equal-Subset-Sum(Medium))|Medium|
 |424|[Longest Repeating Character Replacement](./424-Longest-Repeating-Character-Replacement(Medium))|Medium|
 |430|[Flatten a Multilevel Doubly Linked List](./430-Flatten-a-Multilevel-Doubly-Linked-List(Medium))|Medium|
+|433|[Minimum Genetic Mutation](./433-Minimum-Genetic-Mutation(Medium))|Medium|
 |449|[Serialize and Deserialize BST](./449-Serialize-and-Deserialize-BST(Medium))|Medium|
 |450|[Delete Node in BST](./450-Delete-Node-in-BST(Medium))|Medium|
 |451|[Sort Characters By Frequency](./451-Sort-Characters-By-Frequency(Medium))|Medium|
@@ -216,4 +217,5 @@
 |993|[Cousins in Binary Tree](./993-Cousins-in-Binary-Tree(Easy))|Easy|
 |994|[Rotting Oranges](./994-Rotting-Oranges(Easy))|Easy|
 |1004|[Max Consecutive Ones III](./1004-Max-Consecutive-Ones-III(Medium))|Medium|
+|1014|[Best Sightseeing Pair](./1014-Best-Sightseeing-Pair(Medium))|Medium|
 |1043|[Partition Array for Maximum Sum](./1043-Partition-Array-for-Maximum-Sum(Medium))|Medium|
