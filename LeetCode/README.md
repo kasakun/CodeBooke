@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :213 :lollipop:**Easy**: 42 :chocolate_bar:**Medium**: 157 :birthday:**Hard**: 14
+:guardsman:**Solved** :214 :lollipop:**Easy**: 42 :chocolate_bar:**Medium**: 158 :birthday:**Hard**: 14
 
 |#|Problems|Level|
 |---|----------|---|
@@ -184,6 +184,7 @@
 |474|[Ones and Zeros](./474-Ones-and-Zeros(Medium))|Medium|
 |491|[Increasing Subsequences](./491-Increasing-Subsequences(Medium))|Medium|
 |494|[Target Sum](./494-Target-Sum(Medium))|Medium|
+|498|[Diagonal Traverse](./498-Diagonal-Traverse(Medium))|Medium|
 |503|[Next Greater Element II](./503-Next-Greater-Element-II(Medium))|Medium|
 |513|[Find Bottom Left Tree Value](./513-Find-Bottom-Left-Tree-Value(Medium))|Medium|
 |518|[Coin Change 2](./518-Coin-Change-2(Medium))|Medium|
