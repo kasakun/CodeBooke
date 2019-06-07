@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :214 :lollipop:**Easy**: 42 :chocolate_bar:**Medium**: 158 :birthday:**Hard**: 14
+:guardsman:**Solved** :215 :lollipop:**Easy**: 42 :chocolate_bar:**Medium**: 159 :birthday:**Hard**: 14
 
 |#|Problems|Level|
 |---|----------|---|
@@ -196,6 +196,7 @@
 |565|[Array Nesting](./565-Array-Nesting(Medium))|Medium|
 |567|[Permutation in String](./567-Permutation-in-String(Medium))|Medium|
 |576|[Out of Boundary Path](./576-Out-of-Boundary-Path(Medium))|Medium|
+|583|[Delete Operation for Two Strings](./583-Delete-Operation-for-Two-Strings(Medium))|Medium|
 |609|[Find Duplicate File in System](./609-Find-Duplicate-File-in-System(Medium))|Medium|
 |621|[Task Scheduler](./621-Task-Scheduler(Medium))|Medium|
 |669|[Trim a Binary Search Tree](./669-Trim-a-Binary-Search-Tree(Easy))|Easy|
