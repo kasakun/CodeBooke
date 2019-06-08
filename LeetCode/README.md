@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :216 :lollipop:**Easy**: 42 :chocolate_bar:**Medium**: 160 :birthday:**Hard**: 14
+:guardsman:**Solved** :217 :lollipop:**Easy**: 43 :chocolate_bar:**Medium**: 160 :birthday:**Hard**: 14
 
 |#|Problems|Level|
 |---|----------|---|
@@ -215,6 +215,7 @@
 |802|[Find Eventual Safe States](./802-Find-Eventual-Safe-States(Medium))|Medium|
 |844|[Backspace String Compare](./844-Backspace-String-Compare(Easy))|Easy|
 |845|[Longest Mountain in Array](./845-Longest-Mountain-in-Array(Medium))|Medium|
+|849|[Maximum Distance to Closest Person](./849-Maximum-Distance-to-Closest-Person(Easy))|Easy|
 |921|[Minimum Add to Make Parentheses Valid](./921-Minimum-Add-to-Make-Parentheses-Valid(Medium))|Medium|
 |973|[K Closest Point to Origin](./973-K-Closest-Point-to-Origin(Medium))|Medium|
 |993|[Cousins in Binary Tree](./993-Cousins-in-Binary-Tree(Easy))|Easy|
