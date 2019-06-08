@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :215 :lollipop:**Easy**: 42 :chocolate_bar:**Medium**: 159 :birthday:**Hard**: 14
+:guardsman:**Solved** :216 :lollipop:**Easy**: 42 :chocolate_bar:**Medium**: 160 :birthday:**Hard**: 14
 
 |#|Problems|Level|
 |---|----------|---|
@@ -211,6 +211,7 @@
 |729|[My Calendar I](./729-My-Calendar-I(Medium))|Medium|
 |767|[Reorganize String](./767-Reorganize-String(Medium))|Medium|
 |797|[All Paths From Source to Target](./797-All-Paths-From-Source-to-Target(Medium))|Medium|
+|799|[Champagne Tower](./799-Champagne-Tower(Medium))|Medium|
 |802|[Find Eventual Safe States](./802-Find-Eventual-Safe-States(Medium))|Medium|
 |844|[Backspace String Compare](./844-Backspace-String-Compare(Easy))|Easy|
 |845|[Longest Mountain in Array](./845-Longest-Mountain-in-Array(Medium))|Medium|
