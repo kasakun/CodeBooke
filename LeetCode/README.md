@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :220 :lollipop:**Easy**: 44 :chocolate_bar:**Medium**: 161 :birthday:**Hard**: 15
+:guardsman:**Solved** :220 :lollipop:**Easy**: 44 :chocolate_bar:**Medium**: 162 :birthday:**Hard**: 14
 
 |#|Problems|Level|
 |---|----------|---|
@@ -104,7 +104,7 @@
 |143|[Reorder List](./143-Reorder-List(Medium))|Medium|
 |144|[Binary Tree Preorder Traversal](./144-Binary-Tree-Preorder-Traversal(Medium))|Medium|
 |145|[Binary Tree Postorder Traversal](./145-Binary-Tree-Postorder-Traversal(Hard))|Hard|
-|146|[LRU Cache](./146-LRU-Cache(Hard))|Hard|
+|146|[LRU Cache](./146-LRU-Cache(Medium))|Medium|
 |148|[Sort List](./148-Sort-List(Medium))|Medium|
 |152|[Maximum Product Subarray](./152-Maximum-Product-Subarray(Medium))|Medium|
 |153|[Find Minimum in Rotated Sorted Array](./153-Find-Minimum-in-Rotated-Sorted-Array(Medium))|Medium|
