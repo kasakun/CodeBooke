@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :218 :lollipop:**Easy**: 43 :chocolate_bar:**Medium**: 160 :birthday:**Hard**: 15
+:guardsman:**Solved** :219 :lollipop:**Easy**: 44 :chocolate_bar:**Medium**: 160 :birthday:**Hard**: 15
 
 |#|Problems|Level|
 |---|----------|---|
@@ -174,6 +174,7 @@
 |406|[Queue Reconstruction by Height](./406-Queue-Reconstruction-by-Height(Medium))|Medium|
 |416|[Partition Equal Subset Sum](./416-Partition-Equal-Subset-Sum(Medium))|Medium|
 |424|[Longest Repeating Character Replacement](./424-Longest-Repeating-Character-Replacement(Medium))|Medium|
+|429|[N ary Tree Level Order Traversal](./429-N-ary-Tree-Level-Order-Traversal(Easy))|Easy|
 |430|[Flatten a Multilevel Doubly Linked List](./430-Flatten-a-Multilevel-Doubly-Linked-List(Medium))|Medium|
 |433|[Minimum Genetic Mutation](./433-Minimum-Genetic-Mutation(Medium))|Medium|
 |449|[Serialize and Deserialize BST](./449-Serialize-and-Deserialize-BST(Medium))|Medium|
