@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :219 :lollipop:**Easy**: 44 :chocolate_bar:**Medium**: 160 :birthday:**Hard**: 15
+:guardsman:**Solved** :220 :lollipop:**Easy**: 44 :chocolate_bar:**Medium**: 161 :birthday:**Hard**: 15
 
 |#|Problems|Level|
 |---|----------|---|
@@ -219,6 +219,7 @@
 |845|[Longest Mountain in Array](./845-Longest-Mountain-in-Array(Medium))|Medium|
 |849|[Maximum Distance to Closest Person](./849-Maximum-Distance-to-Closest-Person(Easy))|Easy|
 |921|[Minimum Add to Make Parentheses Valid](./921-Minimum-Add-to-Make-Parentheses-Valid(Medium))|Medium|
+|947|[Most Stones Removed with Same Row or Column](./947-Most-Stones-Removed-with-Same-Row-or-Column(Medium))|Medium|
 |973|[K Closest Point to Origin](./973-K-Closest-Point-to-Origin(Medium))|Medium|
 |993|[Cousins in Binary Tree](./993-Cousins-in-Binary-Tree(Easy))|Easy|
 |994|[Rotting Oranges](./994-Rotting-Oranges(Easy))|Easy|
