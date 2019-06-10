@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :221 :lollipop:**Easy**: 44 :chocolate_bar:**Medium**: 162 :birthday:**Hard**: 15
+:guardsman:**Solved** :223 :lollipop:**Easy**: 44 :chocolate_bar:**Medium**: 164 :birthday:**Hard**: 15
 
 |#|Problems|Level|
 |---|----------|---|
@@ -143,7 +143,7 @@
 |283|[Move Zeros](./283-Move-Zeros(Easy))|Easy|
 |287|[Find the Duplicate Number](./287-Find-the-Duplicate-Number(Medium))|Medium|
 |289|[Game of Life](./289-Game-of-Life(Medium))|Medium|
-|295|[Find Medium from Data Stream](./295-Find-Medium-from-Data-Stream(Hard))|Hard|
+|295|[Find Median from Data Stream](./295-Find-Median-from-Data-Stream(Hard))|Hard|
 |299|[Bulls and Cows](./299-Bulls-and-Cows(Medium))|Medium|
 |300|[Longest Increasing Subsequence](./300-Longest-Increasing-Subsequence(Medium))|Medium|
 |307|[Range Sum Query Mutable](./307-Range-Sum-Query-Mutable(Medium))|Medium|
@@ -178,9 +178,11 @@
 |429|[N ary Tree Level Order Traversal](./429-N-ary-Tree-Level-Order-Traversal(Easy))|Easy|
 |430|[Flatten a Multilevel Doubly Linked List](./430-Flatten-a-Multilevel-Doubly-Linked-List(Medium))|Medium|
 |433|[Minimum Genetic Mutation](./433-Minimum-Genetic-Mutation(Medium))|Medium|
+|435|[Non overlapping Intervals](./435-Non-overlapping-Intervals(Medium))|Medium|
 |449|[Serialize and Deserialize BST](./449-Serialize-and-Deserialize-BST(Medium))|Medium|
 |450|[Delete Node in BST](./450-Delete-Node-in-BST(Medium))|Medium|
 |451|[Sort Characters By Frequency](./451-Sort-Characters-By-Frequency(Medium))|Medium|
+|452|[Minimum Number of Arrows to Burst Balloons](./452-Minimum-Number-of-Arrows-to-Burst-Balloons(Medium))|Medium|
 |454|[4Sum II](./454-4Sum-II(Medium))|Medium|
 |468|[Validate IP Address](./468-Validate-IP-Address(Medium))|Medium|
 |473|[Matchsticks to Square](./473-Matchsticks-to-Square(Medium))|Medium|
