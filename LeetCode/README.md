@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :223 :lollipop:**Easy**: 44 :chocolate_bar:**Medium**: 164 :birthday:**Hard**: 15
+:guardsman:**Solved** :224 :lollipop:**Easy**: 44 :chocolate_bar:**Medium**: 165 :birthday:**Hard**: 15
 
 |#|Problems|Level|
 |---|----------|---|
@@ -184,6 +184,7 @@
 |451|[Sort Characters By Frequency](./451-Sort-Characters-By-Frequency(Medium))|Medium|
 |452|[Minimum Number of Arrows to Burst Balloons](./452-Minimum-Number-of-Arrows-to-Burst-Balloons(Medium))|Medium|
 |454|[4Sum II](./454-4Sum-II(Medium))|Medium|
+|467|[Unique Substrings in Wraparound String](./467-Unique-Substrings-in-Wraparound-String(Medium))|Medium|
 |468|[Validate IP Address](./468-Validate-IP-Address(Medium))|Medium|
 |473|[Matchsticks to Square](./473-Matchsticks-to-Square(Medium))|Medium|
 |474|[Ones and Zeros](./474-Ones-and-Zeros(Medium))|Medium|
