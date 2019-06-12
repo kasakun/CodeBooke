@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :225 :lollipop:**Easy**: 44 :chocolate_bar:**Medium**: 165 :birthday:**Hard**: 16
+:guardsman:**Solved** :226 :lollipop:**Easy**: 44 :chocolate_bar:**Medium**: 166 :birthday:**Hard**: 16
 
 |#|Problems|Level|
 |---|----------|---|
@@ -223,6 +223,7 @@
 |844|[Backspace String Compare](./844-Backspace-String-Compare(Easy))|Easy|
 |845|[Longest Mountain in Array](./845-Longest-Mountain-in-Array(Medium))|Medium|
 |849|[Maximum Distance to Closest Person](./849-Maximum-Distance-to-Closest-Person(Easy))|Easy|
+|881|[Boats to Save People](./881-Boats-to-Save-People(Medium))|Medium|
 |921|[Minimum Add to Make Parentheses Valid](./921-Minimum-Add-to-Make-Parentheses-Valid(Medium))|Medium|
 |947|[Most Stones Removed with Same Row or Column](./947-Most-Stones-Removed-with-Same-Row-or-Column(Medium))|Medium|
 |973|[K Closest Point to Origin](./973-K-Closest-Point-to-Origin(Medium))|Medium|
