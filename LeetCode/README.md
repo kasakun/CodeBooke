@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :228 :lollipop:**Easy**: 44 :chocolate_bar:**Medium**: 168 :birthday:**Hard**: 16
+:guardsman:**Solved** :229 :lollipop:**Easy**: 44 :chocolate_bar:**Medium**: 169 :birthday:**Hard**: 16
 
 |#|Problems|Level|
 |---|----------|---|
@@ -227,6 +227,7 @@
 |849|[Maximum Distance to Closest Person](./849-Maximum-Distance-to-Closest-Person(Easy))|Easy|
 |881|[Boats to Save People](./881-Boats-to-Save-People(Medium))|Medium|
 |921|[Minimum Add to Make Parentheses Valid](./921-Minimum-Add-to-Make-Parentheses-Valid(Medium))|Medium|
+|931|[Minimum Falling Path Sum](./931-Minimum-Falling-Path-Sum(Medium))|Medium|
 |947|[Most Stones Removed with Same Row or Column](./947-Most-Stones-Removed-with-Same-Row-or-Column(Medium))|Medium|
 |973|[K Closest Point to Origin](./973-K-Closest-Point-to-Origin(Medium))|Medium|
 |993|[Cousins in Binary Tree](./993-Cousins-in-Binary-Tree(Easy))|Easy|
