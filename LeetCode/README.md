@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :227 :lollipop:**Easy**: 44 :chocolate_bar:**Medium**: 167 :birthday:**Hard**: 16
+:guardsman:**Solved** :228 :lollipop:**Easy**: 44 :chocolate_bar:**Medium**: 168 :birthday:**Hard**: 16
 
 |#|Problems|Level|
 |---|----------|---|
@@ -153,6 +153,7 @@
 |330|[Patching Array](./330-Patching-Array(Hard))|Hard|
 |331|[Verify Preorder Serialization of a Binary Tree](./331-Verify-Preorder-Serialization-of-a-Binary-Tree(Medium))|Medium|
 |332|[Reconstruct Itinerary](./332-Reconstruct-Itinerary(Medium))|Medium|
+|334|[Increasing Triplet Subsequence](./334-Increasing-Triplet-Subsequence(Medium))|Medium|
 |337|[House Robber III](./337-House-Robber-III(Medium))|Medium|
 |338|[Counting Bits](./338-Counting-Bits(Medium))|Medium|
 |343|[Integer Break](./343-Integer-Break(Medium))|Medium|
