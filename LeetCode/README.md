@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :230 :lollipop:**Easy**: 44 :chocolate_bar:**Medium**: 170 :birthday:**Hard**: 16
+:guardsman:**Solved** :231 :lollipop:**Easy**: 44 :chocolate_bar:**Medium**: 171 :birthday:**Hard**: 16
 
 |#|Problems|Level|
 |---|----------|---|
@@ -207,6 +207,7 @@
 |600|[Non negative Integers without Consecutive Ones](./600-Non-negative-Integers-without-Consecutive-Ones(Hard))|Hard|
 |609|[Find Duplicate File in System](./609-Find-Duplicate-File-in-System(Medium))|Medium|
 |621|[Task Scheduler](./621-Task-Scheduler(Medium))|Medium|
+|652|[Find Duplicate Subtree](./652-Find-Duplicate-Subtree(Medium))|Medium|
 |669|[Trim a Binary Search Tree](./669-Trim-a-Binary-Search-Tree(Easy))|Easy|
 |695|[Max Area of Island](./695-Max-Area-of-Island(Medium))|Medium|
 |698|[Partition to K Equal Sum Subsets](./698-Partition-to-K-Equal-Sum-Subsets(Medium))|Medium|
