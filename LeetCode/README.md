@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :234 :lollipop:**Easy**: 45 :chocolate_bar:**Medium**: 173 :birthday:**Hard**: 16
+:guardsman:**Solved** :235 :lollipop:**Easy**: 45 :chocolate_bar:**Medium**: 173 :birthday:**Hard**: 17
 
 |#|Problems|Level|
 |---|----------|---|
@@ -132,6 +132,7 @@
 |230|[Kth Smallest Element in a BST](./230-Kth-Smallest-Element-in-a-BST(Medium))|Medium|
 |235|[Lowest Common Ancestor of a Binary Search Tree](./235-Lowest-Common-Ancestor-of-a-Binary-Search-Tree(Medium))|Medium|
 |238|[Product of Array Except Self](./238-Product-of-Array-Except-Self(Medium))|Medium|
+|239|[Sliding Window Maximum](./239-Sliding-Window-Maximum(Hard))|Hard|
 |241|[Different Ways to Add Parentheses](./241-Different-Ways-to-Add-Parentheses(Medium))|Medium|
 |257|[Binary Tree Paths](./257-Binary-Tree-Paths(Easy))|Easy|
 |260|[Single Number III](./260-Single-Number-III(Medium))|Medium|
