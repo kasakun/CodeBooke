@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :236 :lollipop:**Easy**: 46 :chocolate_bar:**Medium**: 173 :birthday:**Hard**: 17
+:guardsman:**Solved** :237 :lollipop:**Easy**: 46 :chocolate_bar:**Medium**: 174 :birthday:**Hard**: 17
 
 |#|Problems|Level|
 |---|----------|---|
@@ -102,6 +102,7 @@
 |137|[Single Number II](./137-Single-Number-II(Medium))|Medium|
 |138|[Copy List with Random Pointer](./138-Copy-List-with-Random-Pointer(Medium))|Medium|
 |141|[Linked List Cycle](./141-Linked-List-Cycle(Easy))|Easy|
+|142|[Linked List Cycle II](./142-Linked-List-Cycle-II(Medium))|Medium|
 |143|[Reorder List](./143-Reorder-List(Medium))|Medium|
 |144|[Binary Tree Preorder Traversal](./144-Binary-Tree-Preorder-Traversal(Medium))|Medium|
 |145|[Binary Tree Postorder Traversal](./145-Binary-Tree-Postorder-Traversal(Hard))|Hard|
