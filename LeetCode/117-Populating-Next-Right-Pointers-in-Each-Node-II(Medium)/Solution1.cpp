@@ -16,6 +16,8 @@ public:
         next = _next;
     }
 };
+
+BFS, but not O(1) space
 */
 class Solution {
 public:

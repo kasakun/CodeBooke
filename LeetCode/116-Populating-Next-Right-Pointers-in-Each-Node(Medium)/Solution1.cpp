@@ -16,6 +16,8 @@ public:
         next = _next;
     }
 };
+
+This is not O(1) space
 */
 class Solution {
 public:
