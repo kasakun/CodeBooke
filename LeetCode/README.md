@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :240 :lollipop:**Easy**: 46 :chocolate_bar:**Medium**: 177 :birthday:**Hard**: 17
+:guardsman:**Solved** :241 :lollipop:**Easy**: 46 :chocolate_bar:**Medium**: 178 :birthday:**Hard**: 17
 
 |#|Problems|Level|
 |---|----------|---|
@@ -241,6 +241,7 @@
 |939|[Minimum Area Rectangle](./939-Minimum-Area-Rectangle(Medium))|Medium|
 |947|[Most Stones Removed with Same Row or Column](./947-Most-Stones-Removed-with-Same-Row-or-Column(Medium))|Medium|
 |973|[K Closest Point to Origin](./973-K-Closest-Point-to-Origin(Medium))|Medium|
+|974|[Subarray Sums Divisible by K](./974-Subarray-Sums-Divisible-by-K(Medium))|Medium|
 |993|[Cousins in Binary Tree](./993-Cousins-in-Binary-Tree(Easy))|Easy|
 |994|[Rotting Oranges](./994-Rotting-Oranges(Easy))|Easy|
 |1004|[Max Consecutive Ones III](./1004-Max-Consecutive-Ones-III(Medium))|Medium|
