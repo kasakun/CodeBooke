@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :242 :lollipop:**Easy**: 46 :chocolate_bar:**Medium**: 179 :birthday:**Hard**: 17
+:guardsman:**Solved** :243 :lollipop:**Easy**: 46 :chocolate_bar:**Medium**: 180 :birthday:**Hard**: 17
 
 |#|Problems|Level|
 |---|----------|---|
@@ -168,6 +168,7 @@
 |357|[Count Numbers with Unique Digits](./357-Count-Numbers-with-Unique-Digits(Medium))|Medium|
 |368|[Largest Divisible Subset](./368-Largest-Divisible-Subset(Medium))|Medium|
 |373|[Find K Pairs with Smallest Sums](./373-Find-K-Pairs-with-Smallest-Sums(Medium))|Medium|
+|376|[Wiggle Subsequence](./376-Wiggle-Subsequence(Medium))|Medium|
 |377|[Combination Sum IV](./377-Combination-Sum-IV(Medium))|Medium|
 |378|[Kth Smallest Element in a Sorted Matrix](./378-Kth-Smallest-Element-in-a-Sorted-Matrix(Medium))|Medium|
 |383|[Ransom Note](./383-Ransom-Note(Easy))|Easy|
