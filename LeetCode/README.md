@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :241 :lollipop:**Easy**: 46 :chocolate_bar:**Medium**: 178 :birthday:**Hard**: 17
+:guardsman:**Solved** :242 :lollipop:**Easy**: 46 :chocolate_bar:**Medium**: 179 :birthday:**Hard**: 17
 
 |#|Problems|Level|
 |---|----------|---|
@@ -174,6 +174,7 @@
 |386|[Lexicographical Numbers](./386-Lexicographical-Numbers(Medium))|Medium|
 |389|[Find the Difference](./389-Find-the-Difference(Easy))|Easy|
 |392|[Is Subsequence](./392-Is-Subsequence(Medium))|Medium|
+|394|[Decode String](./394-Decode-String(Medium))|Medium|
 |395|[Longest Substring with At Least K Repeating Characters](./395-Longest-Substring-with-At-Least-K-Repeating-Characters(Medium))|Medium|
 |397|[Integer Replacement](./397-Integer-Replacement(Medium))|Medium|
 |399|[Evaluate Division](./399-Evaluate-Division(Medium))|Medium|
