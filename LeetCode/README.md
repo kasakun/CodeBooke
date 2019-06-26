@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :245 :lollipop:**Easy**: 47 :chocolate_bar:**Medium**: 181 :birthday:**Hard**: 17
+:guardsman:**Solved** :246 :lollipop:**Easy**: 47 :chocolate_bar:**Medium**: 182 :birthday:**Hard**: 17
 
 |#|Problems|Level|
 |---|----------|---|
@@ -235,6 +235,7 @@
 |797|[All Paths From Source to Target](./797-All-Paths-From-Source-to-Target(Medium))|Medium|
 |799|[Champagne Tower](./799-Champagne-Tower(Medium))|Medium|
 |802|[Find Eventual Safe States](./802-Find-Eventual-Safe-States(Medium))|Medium|
+|813|[Largest Sum of Averages](./813-Largest-Sum-of-Averages(Medium))|Medium|
 |844|[Backspace String Compare](./844-Backspace-String-Compare(Easy))|Easy|
 |845|[Longest Mountain in Array](./845-Longest-Mountain-in-Array(Medium))|Medium|
 |849|[Maximum Distance to Closest Person](./849-Maximum-Distance-to-Closest-Person(Easy))|Easy|
