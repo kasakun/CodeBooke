@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :244 :lollipop:**Easy**: 46 :chocolate_bar:**Medium**: 181 :birthday:**Hard**: 17
+:guardsman:**Solved** :245 :lollipop:**Easy**: 47 :chocolate_bar:**Medium**: 181 :birthday:**Hard**: 17
 
 |#|Problems|Level|
 |---|----------|---|
@@ -165,6 +165,7 @@
 |343|[Integer Break](./343-Integer-Break(Medium))|Medium|
 |344|[Reverse String](./344-Reverse-String(Easy))|Easy|
 |347|[Top K Frequent Elements](./347-Top-K-Frequent-Elements(Medium))|Medium|
+|349|[Intersection of Two Arrays](./349-Intersection-of-Two-Arrays(Easy))|Easy|
 |357|[Count Numbers with Unique Digits](./357-Count-Numbers-with-Unique-Digits(Medium))|Medium|
 |368|[Largest Divisible Subset](./368-Largest-Divisible-Subset(Medium))|Medium|
 |373|[Find K Pairs with Smallest Sums](./373-Find-K-Pairs-with-Smallest-Sums(Medium))|Medium|
