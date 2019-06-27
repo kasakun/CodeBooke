@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :247 :lollipop:**Easy**: 47 :chocolate_bar:**Medium**: 183 :birthday:**Hard**: 17
+:guardsman:**Solved** :248 :lollipop:**Easy**: 47 :chocolate_bar:**Medium**: 184 :birthday:**Hard**: 17
 
 |#|Problems|Level|
 |---|----------|---|
@@ -29,6 +29,7 @@
 |29|[Divide Two Integers](./29-Divide-Two-Integers(Medium))|Medium|
 |31|[Next Permutation](./31-Next-Permutation(Medium))|Medium|
 |33|[Search in Rotated Sorted Array](./33-Search-in-Rotated-Sorted-Array(Medium))|Medium|
+|34|[Find First and Last Position of Element in Sorted Array](./34-Find-First-and-Last-Position-of-Element-in-Sorted-Array(Medium))|Medium|
 |35|[Search Insert Position](./35-Search-Insert-Position(Easy))|Easy|
 |36|[Valid Sodoku](./36-Valid-Sodoku(Medium))|Medium|
 |39|[Combination Sum](./39-Combination-Sum(Medium))|Medium|
