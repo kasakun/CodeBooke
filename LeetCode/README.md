@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :248 :lollipop:**Easy**: 47 :chocolate_bar:**Medium**: 184 :birthday:**Hard**: 17
+:guardsman:**Solved** :249 :lollipop:**Easy**: 47 :chocolate_bar:**Medium**: 185 :birthday:**Hard**: 17
 
 |#|Problems|Level|
 |---|----------|---|
@@ -23,6 +23,7 @@
 |19|[Remove Nth Node From End of List](./19-Remove-Nth-Node-From-End-of-List(Medium))|Medium|
 |20|[Valid Parentheses](./20-Valid-Parentheses(Easy))|Easy|
 |21|[Merge Two Sorted Lists](./21-Merge-Two-Sorted-Lists(Easy))|Easy|
+|22|[Generate Parentheses](./22-Generate-Parentheses(Medium))|Medium|
 |23|[Merge k Sorted Lists](./23-Merge-k-Sorted-Lists(Hard))|Hard|
 |24|[Swap Nodes in Pairs](./24-Swap-Nodes-in-Pairs(Medium))|Medium|
 |26|[Remove Duplicates from Sorted Array](./26-Remove-Duplicates-from-Sorted-Array(Easy))|Easy|
