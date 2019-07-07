@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :250 :lollipop:**Easy**: 47 :chocolate_bar:**Medium**: 186 :birthday:**Hard**: 17
+:guardsman:**Solved** :251 :lollipop:**Easy**: 48 :chocolate_bar:**Medium**: 186 :birthday:**Hard**: 17
 
 |#|Problems|Level|
 |---|----------|---|
@@ -27,6 +27,7 @@
 |23|[Merge k Sorted Lists](./23-Merge-k-Sorted-Lists(Hard))|Hard|
 |24|[Swap Nodes in Pairs](./24-Swap-Nodes-in-Pairs(Medium))|Medium|
 |26|[Remove Duplicates from Sorted Array](./26-Remove-Duplicates-from-Sorted-Array(Easy))|Easy|
+|27|[Remove Element](./27-Remove-Element(Easy))|Easy|
 |29|[Divide Two Integers](./29-Divide-Two-Integers(Medium))|Medium|
 |31|[Next Permutation](./31-Next-Permutation(Medium))|Medium|
 |33|[Search in Rotated Sorted Array](./33-Search-in-Rotated-Sorted-Array(Medium))|Medium|
