@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :252 :lollipop:**Easy**: 48 :chocolate_bar:**Medium**: 186 :birthday:**Hard**: 18
+:guardsman:**Solved** :253 :lollipop:**Easy**: 49 :chocolate_bar:**Medium**: 186 :birthday:**Hard**: 18
 
 |#|Problems|Level|
 |---|----------|---|
@@ -35,6 +35,7 @@
 |34|[Find First and Last Position of Element in Sorted Array](./34-Find-First-and-Last-Position-of-Element-in-Sorted-Array(Medium))|Medium|
 |35|[Search Insert Position](./35-Search-Insert-Position(Easy))|Easy|
 |36|[Valid Sodoku](./36-Valid-Sodoku(Medium))|Medium|
+|38|[Count and Say](./38-Count-and-Say(Easy))|Easy|
 |39|[Combination Sum](./39-Combination-Sum(Medium))|Medium|
 |40|[Combination Sum II](./40-Combination-Sum-II(Medium))|Medium|
 |41|[First Missing Positive](./41-First-Missing-Positive(Hard))|Hard|
