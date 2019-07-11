@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :254 :lollipop:**Easy**: 49 :chocolate_bar:**Medium**: 187 :birthday:**Hard**: 18
+:guardsman:**Solved** :255 :lollipop:**Easy**: 50 :chocolate_bar:**Medium**: 187 :birthday:**Hard**: 18
 
 |#|Problems|Level|
 |---|----------|---|
@@ -49,6 +49,7 @@
 |50|[Pow(x,n)](./50-Pow(x,n)(Medium))|Medium|
 |51|[N Queens](./51-N-Queens(Hard))|Hard|
 |52|[N Queens II](./52-N-Queens-II(Hard))|Hard|
+|53|[Maximum Subarray](./53-Maximum-Subarray(Easy))|Easy|
 |54|[Spiral Matrix](./54-Spiral-Matrix(Medium))|Medium|
 |55|[Jump Game](./55-Jump-Game(Medium))|Medium|
 |56|[Merge Intervals](./56-Merge-Intervals(Medium))|Medium|
