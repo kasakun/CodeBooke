@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :255 :lollipop:**Easy**: 50 :chocolate_bar:**Medium**: 187 :birthday:**Hard**: 18
+:guardsman:**Solved** :256 :lollipop:**Easy**: 50 :chocolate_bar:**Medium**: 188 :birthday:**Hard**: 18
 
 |#|Problems|Level|
 |---|----------|---|
@@ -55,6 +55,7 @@
 |56|[Merge Intervals](./56-Merge-Intervals(Medium))|Medium|
 |59|[Spiral Matrix II](./59-Spiral-Matrix-II(Medium))|Medium|
 |60|[Permutation Sequence](./60-Permutation-Sequence(Medium))|Medium|
+|61|[Rotate List](./61-Rotate-List(Medium))|Medium|
 |62|[Unique Paths](./62-Unique-Paths(Medium))|Medium|
 |63|[Unique Paths II](./63-Unique-Paths-II(Medium))|Medium|
 |64|[Minimum Path Sum](./64-Minimum-Path-Sum(Medium))|Medium|
