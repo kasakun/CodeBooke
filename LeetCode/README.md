@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :256 :lollipop:**Easy**: 50 :chocolate_bar:**Medium**: 188 :birthday:**Hard**: 18
+:guardsman:**Solved** :257 :lollipop:**Easy**: 50 :chocolate_bar:**Medium**: 188 :birthday:**Hard**: 19
 
 |#|Problems|Level|
 |---|----------|---|
@@ -66,6 +66,7 @@
 |73|[Set Matrix Zeros](./73-Set-Matrix-Zeros(Medium))|Medium|
 |74|[Search a 2D Matrix](./74-Search-a-2D-Matrix(Medium))|Medium|
 |75|[Sort Colors](./75-Sort-Colors(Medium))|Medium|
+|76|[Minimum Window Substring](./76-Minimum-Window-Substring(Hard))|Hard|
 |77|[Combinations](./77-Combinations(Medium))|Medium|
 |78|[Subsets](./78-Subsets(Medium))|Medium|
 |79|[Word Search](./79-Word-Search(Medium))|Medium|
