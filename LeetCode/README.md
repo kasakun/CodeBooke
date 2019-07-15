@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :257 :lollipop:**Easy**: 50 :chocolate_bar:**Medium**: 188 :birthday:**Hard**: 19
+:guardsman:**Solved** :258 :lollipop:**Easy**: 51 :chocolate_bar:**Medium**: 188 :birthday:**Hard**: 19
 
 |#|Problems|Level|
 |---|----------|---|
@@ -53,6 +53,7 @@
 |54|[Spiral Matrix](./54-Spiral-Matrix(Medium))|Medium|
 |55|[Jump Game](./55-Jump-Game(Medium))|Medium|
 |56|[Merge Intervals](./56-Merge-Intervals(Medium))|Medium|
+|58|[Length of Last Word](./58-Length-of-Last-Word(Easy))|Easy|
 |59|[Spiral Matrix II](./59-Spiral-Matrix-II(Medium))|Medium|
 |60|[Permutation Sequence](./60-Permutation-Sequence(Medium))|Medium|
 |61|[Rotate List](./61-Rotate-List(Medium))|Medium|
