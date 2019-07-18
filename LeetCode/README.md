@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :259 :lollipop:**Easy**: 51 :chocolate_bar:**Medium**: 189 :birthday:**Hard**: 19
+:guardsman:**Solved** :260 :lollipop:**Easy**: 52 :chocolate_bar:**Medium**: 189 :birthday:**Hard**: 19
 
 |#|Problems|Level|
 |---|----------|---|
@@ -91,6 +91,7 @@
 |101|[Symmetric Tree](./101-Symmetric-Tree(Medium))|Medium|
 |102|[Binary Tree Level Order Traversal](./102-Binary-Tree-Level-Order-Traversal(Medium))|Medium|
 |103|[Binary Tree Zigzag Level Order Traversal](./103-Binary-Tree-Zigzag-Level-Order-Traversal(Medium))|Medium|
+|104|[Maximum Depth of Binary Tree](./104-Maximum-Depth-of-Binary-Tree(Easy))|Easy|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](./105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal(Medium))|Medium|
 |107|[Binary Tree Level Order Traversal II](./107-Binary-Tree-Level-Order-Traversal-II(Easy))|Easy|
 |108|[Convert Sorted Array to Binary Search Tree](./108-Convert-Sorted-Array-to-Binary-Search-Tree(Easy))|Easy|
