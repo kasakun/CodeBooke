@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :263 :lollipop:**Easy**: 53 :chocolate_bar:**Medium**: 191 :birthday:**Hard**: 19
+:guardsman:**Solved** :264 :lollipop:**Easy**: 53 :chocolate_bar:**Medium**: 191 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -113,6 +113,7 @@
 |125|[Valid Palindrome](./125-Valid-Palindrome(Easy))|Easy|
 |126|[Word Ladder II](./126-Word-Ladder-II(Hard))|Hard|
 |127|[Word Ladder](./127-Word-Ladder(Medium))|Medium|
+|128|[Longest Consecutive Sequnce](./128-Longest-Consecutive-Sequnce(Hard))|Hard|
 |129|[Sum Root to Leaf Numbers](./129-Sum-Root-to-Leaf-Numbers(Medium))|Medium|
 |131|[Palindrome Partitioning](./131-Palindrome-Partitioning(Medium))|Medium|
 |133|[Clone Graph](./133-Clone-Graph(Medium))|Medium|
