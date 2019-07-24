@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :264 :lollipop:**Easy**: 53 :chocolate_bar:**Medium**: 191 :birthday:**Hard**: 20
+:guardsman:**Solved** :265 :lollipop:**Easy**: 53 :chocolate_bar:**Medium**: 192 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -85,6 +85,7 @@
 |93|[Restore IP Addresses](./93-Restore-IP-Addresses(Medium))|Medium|
 |94|[Binary Tree Inorder Traversal](./94-Binary-Tree-Inorder-Traversal(Medium))|Medium|
 |95|[Unique Binary Search Trees II](./95-Unique-Binary-Search-Trees-II(Medium))|Medium|
+|96|[Unique Binary Search Trees](./96-Unique-Binary-Search-Trees(Medium))|Medium|
 |98|[Validate Binary Search Tree](./98-Validate-Binary-Search-Tree(Medium))|Medium|
 |99|[Recover Binary Search Tree](./99-Recover-Binary-Search-Tree(Hard))|Hard|
 |100|[Same Tree](./100-Same-Tree(Easy))|Easy|
