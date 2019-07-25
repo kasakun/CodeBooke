@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :265 :lollipop:**Easy**: 53 :chocolate_bar:**Medium**: 192 :birthday:**Hard**: 20
+:guardsman:**Solved** :266 :lollipop:**Easy**: 53 :chocolate_bar:**Medium**: 193 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -151,6 +151,7 @@
 |221|[Maximal Square](./221-Maximal-Square(Medium))|Medium|
 |222|[Count Complete Tree Nodes](./222-Count-Complete-Tree-Nodes(Medium))|Medium|
 |226|[Invert Binary Tree](./226-Invert-Binary-Tree(Easy))|Easy|
+|227|[Basic Calculator II](./227-Basic-Calculator-II(Medium))|Medium|
 |229|[Majority Element II](./229-Majority-Element-II(Medium))|Medium|
 |230|[Kth Smallest Element in a BST](./230-Kth-Smallest-Element-in-a-BST(Medium))|Medium|
 |235|[Lowest Common Ancestor of a Binary Search Tree](./235-Lowest-Common-Ancestor-of-a-Binary-Search-Tree(Medium))|Medium|
