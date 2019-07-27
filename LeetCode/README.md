@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :267 :lollipop:**Easy**: 54 :chocolate_bar:**Medium**: 193 :birthday:**Hard**: 20
+:guardsman:**Solved** :268 :lollipop:**Easy**: 55 :chocolate_bar:**Medium**: 193 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -168,6 +168,7 @@
 |283|[Move Zeros](./283-Move-Zeros(Easy))|Easy|
 |287|[Find the Duplicate Number](./287-Find-the-Duplicate-Number(Medium))|Medium|
 |289|[Game of Life](./289-Game-of-Life(Medium))|Medium|
+|290|[Word Pattern](./290-Word-Pattern(Easy))|Easy|
 |292|[Nim Game](./292-Nim-Game(Easy))|Easy|
 |295|[Find Median from Data Stream](./295-Find-Median-from-Data-Stream(Hard))|Hard|
 |299|[Bulls and Cows](./299-Bulls-and-Cows(Medium))|Medium|
