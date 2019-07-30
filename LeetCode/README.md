@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :270 :lollipop:**Easy**: 56 :chocolate_bar:**Medium**: 194 :birthday:**Hard**: 20
+:guardsman:**Solved** :271 :lollipop:**Easy**: 56 :chocolate_bar:**Medium**: 195 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -222,6 +222,7 @@
 |462|[Minimum Moves to Equal Array](./462-Minimum-Moves-to-Equal-Array(Medium))|Medium|
 |467|[Unique Substrings in Wraparound String](./467-Unique-Substrings-in-Wraparound-String(Medium))|Medium|
 |468|[Validate IP Address](./468-Validate-IP-Address(Medium))|Medium|
+|470|[Implement Rand10 Using Rand7](./470-Implement-Rand10-Using-Rand7(Medium))|Medium|
 |473|[Matchsticks to Square](./473-Matchsticks-to-Square(Medium))|Medium|
 |474|[Ones and Zeros](./474-Ones-and-Zeros(Medium))|Medium|
 |491|[Increasing Subsequences](./491-Increasing-Subsequences(Medium))|Medium|
