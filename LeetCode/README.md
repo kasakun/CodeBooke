@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :271 :lollipop:**Easy**: 56 :chocolate_bar:**Medium**: 195 :birthday:**Hard**: 20
+:guardsman:**Solved** :272 :lollipop:**Easy**: 56 :chocolate_bar:**Medium**: 196 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -174,6 +174,7 @@
 |299|[Bulls and Cows](./299-Bulls-and-Cows(Medium))|Medium|
 |300|[Longest Increasing Subsequence](./300-Longest-Increasing-Subsequence(Medium))|Medium|
 |307|[Range Sum Query Mutable](./307-Range-Sum-Query-Mutable(Medium))|Medium|
+|310|[Minimum Height Trees](./310-Minimum-Height-Trees(Medium))|Medium|
 |318|[Maximum Product of Word Lengths](./318-Maximum-Product-of-Word-Lengths(Medium))|Medium|
 |322|[Coin Change](./322-Coin-Change(Medium))|Medium|
 |328|[Odd Even Linked List](./328-Odd-Even-Linked-List(Medium))|Medium|
