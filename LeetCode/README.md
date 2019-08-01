@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :272 :lollipop:**Easy**: 56 :chocolate_bar:**Medium**: 196 :birthday:**Hard**: 20
+:guardsman:**Solved** :273 :lollipop:**Easy**: 57 :chocolate_bar:**Medium**: 196 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -215,6 +215,7 @@
 |433|[Minimum Genetic Mutation](./433-Minimum-Genetic-Mutation(Medium))|Medium|
 |435|[Non overlapping Intervals](./435-Non-overlapping-Intervals(Medium))|Medium|
 |436|[Find Right Interval](./436-Find-Right-Interval(Medium))|Medium|
+|448|[Find All Numbers Disappeared in an Array](./448-Find-All-Numbers-Disappeared-in-an-Array(Easy))|Easy|
 |449|[Serialize and Deserialize BST](./449-Serialize-and-Deserialize-BST(Medium))|Medium|
 |450|[Delete Node in BST](./450-Delete-Node-in-BST(Medium))|Medium|
 |451|[Sort Characters By Frequency](./451-Sort-Characters-By-Frequency(Medium))|Medium|
