@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :275 :lollipop:**Easy**: 58 :chocolate_bar:**Medium**: 197 :birthday:**Hard**: 20
+:guardsman:**Solved** :276 :lollipop:**Easy**: 58 :chocolate_bar:**Medium**: 198 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -201,6 +201,7 @@
 |392|[Is Subsequence](./392-Is-Subsequence(Medium))|Medium|
 |394|[Decode String](./394-Decode-String(Medium))|Medium|
 |395|[Longest Substring with At Least K Repeating Characters](./395-Longest-Substring-with-At-Least-K-Repeating-Characters(Medium))|Medium|
+|396|[Rotate Function](./396-Rotate-Function(Medium))|Medium|
 |397|[Integer Replacement](./397-Integer-Replacement(Medium))|Medium|
 |399|[Evaluate Division](./399-Evaluate-Division(Medium))|Medium|
 |402|[Remove K Digits](./402-Remove-K-Digits(Medium))|Medium|
