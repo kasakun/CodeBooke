@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :276 :lollipop:**Easy**: 58 :chocolate_bar:**Medium**: 198 :birthday:**Hard**: 20
+:guardsman:**Solved** :277 :lollipop:**Easy**: 59 :chocolate_bar:**Medium**: 198 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -244,6 +244,7 @@
 |560|[Subarray Sum Equal K](./560-Subarray-Sum-Equal-K(Medium))|Medium|
 |565|[Array Nesting](./565-Array-Nesting(Medium))|Medium|
 |567|[Permutation in String](./567-Permutation-in-String(Medium))|Medium|
+|572|[Subtree of Another Tree](./572-Subtree-of-Another-Tree(Easy))|Easy|
 |576|[Out of Boundary Path](./576-Out-of-Boundary-Path(Medium))|Medium|
 |583|[Delete Operation for Two Strings](./583-Delete-Operation-for-Two-Strings(Medium))|Medium|
 |600|[Non negative Integers without Consecutive Ones](./600-Non-negative-Integers-without-Consecutive-Ones(Hard))|Hard|
