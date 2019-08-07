@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :277 :lollipop:**Easy**: 59 :chocolate_bar:**Medium**: 198 :birthday:**Hard**: 20
+:guardsman:**Solved** :278 :lollipop:**Easy**: 60 :chocolate_bar:**Medium**: 198 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -247,6 +247,7 @@
 |572|[Subtree of Another Tree](./572-Subtree-of-Another-Tree(Easy))|Easy|
 |576|[Out of Boundary Path](./576-Out-of-Boundary-Path(Medium))|Medium|
 |583|[Delete Operation for Two Strings](./583-Delete-Operation-for-Two-Strings(Medium))|Medium|
+|589|[N ary Tree Preorder Traversal](./589-N-ary Tree Preorder-Traversal(Easy))|Easy|
 |600|[Non negative Integers without Consecutive Ones](./600-Non-negative-Integers-without-Consecutive-Ones(Hard))|Hard|
 |609|[Find Duplicate File in System](./609-Find-Duplicate-File-in-System(Medium))|Medium|
 |621|[Task Scheduler](./621-Task-Scheduler(Medium))|Medium|
