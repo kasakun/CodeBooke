@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :278 :lollipop:**Easy**: 60 :chocolate_bar:**Medium**: 198 :birthday:**Hard**: 20
+:guardsman:**Solved** :279 :lollipop:**Easy**: 61 :chocolate_bar:**Medium**: 198 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -241,6 +241,7 @@
 |539|[Minimum Time Difference](./539-Minimum-Time-Difference(Medium))|Medium|
 |554|[Brick Wall](./554-Brick-Wall(Medium))|Medium|
 |556|[Next Greater Element III](./556-Next-Greater-Element-III(Medium))|Medium|
+|557|[Reverse Words in a String III](./557-Reverse-Words-in-a-String-III(Easy))|Easy|
 |560|[Subarray Sum Equal K](./560-Subarray-Sum-Equal-K(Medium))|Medium|
 |565|[Array Nesting](./565-Array-Nesting(Medium))|Medium|
 |567|[Permutation in String](./567-Permutation-in-String(Medium))|Medium|
