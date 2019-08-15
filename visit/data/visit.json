@@ -1,0 +1,28 @@
+{
+  "data":[
+	{
+	    "region" : "USA",
+	    "subregion": "California",
+	    "status": "live",
+	    "year": "2019,present"
+	},
+	{
+	    "region" : "Japan",
+	    "subregion": "Kyoto",
+	    "status": "travel",
+	    "year": "2019"
+	},
+	{
+	    "region": "China",
+	    "subregion": "Shanghai",
+	    "status": "home",
+	    "year": "2019"
+	},
+	{
+	    "region": "China",
+	    "subregion": "Hainan",
+	    "status": "travel",
+	    "year": "2019"
+	}
+	]
+}
