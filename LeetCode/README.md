@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :284 :lollipop:**Easy**: 64 :chocolate_bar:**Medium**: 200 :birthday:**Hard**: 20
+:guardsman:**Solved** :285 :lollipop:**Easy**: 65 :chocolate_bar:**Medium**: 200 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -258,6 +258,7 @@
 |641|[Design Circular Deque](./641-Design-Circular-Deque(Medium))|Medium|
 |652|[Find Duplicate Subtree](./652-Find-Duplicate-Subtree(Medium))|Medium|
 |669|[Trim a Binary Search Tree](./669-Trim-a-Binary-Search-Tree(Easy))|Easy|
+|693|[Binary Number with Alternating Bits](./693-Binary-Number-with-Alternating-Bits(Easy))|Easy|
 |695|[Max Area of Island](./695-Max-Area-of-Island(Medium))|Medium|
 |698|[Partition to K Equal Sum Subsets](./698-Partition-to-K-Equal-Sum-Subsets(Medium))|Medium|
 |700|[Search in a Binary Search Tree](./700-Search-in-a-Binary-Search-Tree(Easy))|Easy|
