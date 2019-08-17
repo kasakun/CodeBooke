@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :285 :lollipop:**Easy**: 65 :chocolate_bar:**Medium**: 200 :birthday:**Hard**: 20
+:guardsman:**Solved** :286 :lollipop:**Easy**: 66 :chocolate_bar:**Medium**: 200 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -263,6 +263,7 @@
 |698|[Partition to K Equal Sum Subsets](./698-Partition-to-K-Equal-Sum-Subsets(Medium))|Medium|
 |700|[Search in a Binary Search Tree](./700-Search-in-a-Binary-Search-Tree(Easy))|Easy|
 |701|[Insert into Binary Search Tree](./701-Insert-into-Binary-Search-Tree(Medium))|Medium|
+|704|[Binary Search](./704-Binary-Search(Easy))|Easy|
 |714|[Best Time to Buy Sell with Transaction Fee](./714-Best-Time-to-Buy-Sell-with-Transaction-Fee(Medium))|Medium|
 |718|[Maximum Length of Repeated Subarray](./718-Maximum-Length-of-Repeated-Subarray(Medium))|Medium|
 |721|[Accounts Merge](./721-Accounts-Merge(Medium))|Medium|
