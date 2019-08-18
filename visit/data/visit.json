@@ -6,7 +6,7 @@
     },
   "live":
     {
-      "region": "United States",
+      "region": "USA",
       "subregion": "California"
     },
   "visit":[
@@ -36,8 +36,23 @@
 	  "year": "2018"
 	},
 	{
+		"region": "USA",
+		"subregion": "Georgia",
+		"year": "2017"
+	},
+	{
+		"region": "USA",
+		"subregion": "Texas",
+		"year": "2018"
+	},
+	{
+		"region": "USA",
+		"subregion": "Illinois",
+		"year": "2017"
+	},
+	{
 	  "region": "USA",
-	  "subregion": "Tenasse",
+	  "subregion": "Tennessee",
 	  "year": "2018"
 	},
 	{
@@ -61,9 +76,89 @@
 	  "year": "2018"
 	},
 	{
+		"region": "Japan",
+		"subregion": "Hokkaido",
+		"year": "2018"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Nagano",
+		"year": "2018"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Gifu",
+		"year": "2018"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Saitama",
+		"year": "2018"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Shiga",
+		"year": "2018"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Yamanashi",
+		"year": "2018"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Aichi",
+		"year": "2018"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Aomori",
+		"year": "2018"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Iwate",
+		"year": "2018"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Miyagi",
+		"year": "2018"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Fukushima",
+		"year": "2018"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Ibaraki",
+		"year": "2018"
+	},
+	{
 	  "region": "Japan",
 	  "subregion": "Kyoto",
 	  "year": "2018"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Kyoto",
+		"year": "2017"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Kyoto",
+		"year": "2015"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Nara",
+		"year": "2018"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Nara",
+		"year": "2017"
 	},
 	{
 	  "region": "Japan",
@@ -71,9 +166,49 @@
 	  "year": "2018"
 	},
 	{
+		"region": "Japan",
+		"subregion": "Osaka",
+		"year": "2017"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Osaka",
+		"year": "2015"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Hyogo",
+		"year": "2018"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Hyogo",
+		"year": "2017"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Chiba",
+		"year": "2019"
+	},
+	{
 	  "region": "Japan",
 	  "subregion": "Tokyo",
-	  "year": "2018"
+	  "year": "2019"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Tokyo",
+		"year": "2018"
+	},
+	{
+	  "region": "Japan",
+	  "subregion": "Tokyo",
+	  "year": "2015"
+	},
+	{
+		"region": "Japan",
+		"subregion": "Kanagawa",
+		"year": "2015"
 	},
 	{
 	  "region": "China",
@@ -86,14 +221,77 @@
 	  "year": "2017"
 	},
 	{
+		"region": "China",
+		"subregion": "Shaanxi",
+		"year": "2017"
+	},
+	{
+		"region": "China",
+		"subregion": "Sichuan",
+		"year": "2016"
+	},
+	{
 	  "region": "China",
 	  "subregion": "Chongqing",
 	  "year": "2017"
+	},
+	{
+		"region": "China",
+		"subregion": "Fujian",
+		"year": "2013"
+	},
+	{
+		"region": "China",
+		"subregion": "Jiangsu",
+		"year": "2017"
+	},
+	{
+		"region": "China",
+		"subregion": "Jiangsu",
+		"year": "2013"
+	},
+	{
+		"region": "China",
+		"subregion": "Beijing",
+		"year": "2011"
+	},
+	{
+		"region": "China",
+		"subregion": "Beijing",
+		"year": "2014"
+	},
+	{
+		"region": "China",
+		"subregion": "Zhejiang",
+		"year": "2017"
+	},
+	{
+		"region": "Cambodia",
+		"year": "2013"
+	},
+	{
+		"region": "Thailand",
+		"year": "2013"
+	},
+	{
+		"region": "China",
+		"subregion": "Shandong",
+		"year": "2012"
 	},
     {
 	  "region": "Australia",
 	  "subregion": "Queensland",
 	  "year": "2011"
-    }
+	},
+	{
+		"region": "China",
+		"subregion": "Anhui",
+		"year": "2006"
+	},
+	{
+		"region": "China",
+		"subregion": "Jiangxi",
+		"year": "2006"
+	}
   ]
 }

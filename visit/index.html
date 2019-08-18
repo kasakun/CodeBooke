@@ -121,6 +121,7 @@
                             show: false
                         }
                     },
+                    nameMap: nameMap,
                     itemStyle: mapStyle
                 }]
             });
@@ -131,15 +132,21 @@
             $.getJSON('data/visit.json', function() {
             }).done(function(data) {
                 let regionData = []
+                let regionSet = new Set();
                 <!--Home town-->
+                regionSet.add(data.home.region);
                 regionData.push({name: data.home.region, itemStyle: {areaColor: '#dc322f'}});
 
                 <!--Current stay-->
+                regionSet.add(data.live.region);
                 regionData.push({name: data.live.region, itemStyle: {areaColor: '#268bd2'}});
                 for (const entry of data.visit) {
+                    if (regionSet.has(entry.region)) continue;
+                    regionSet.add(entry.region);
                     regionData.push({name: entry.region, itemStyle: {areaColor: '#859900'}});
                 }
                 worldMapChart.hideLoading();
+                console.log(regionData);
                 worldMapChart.setOption ({
                     series: [{
                         data: regionData
@@ -185,20 +192,26 @@
 
                     <!--Fetch Data-->
                     let subRegionData = [];
+
                     $.getJSON('data/visit.json', function() {
                     }).done(function(data) {
+                        let subRegionSet = new Set();
+
                         <!--Home town-->
                         if (data.home.region === name)
+                            subRegionSet.add(data.home.subregion);
                             subRegionData.push({name: data.home.subregion, itemStyle: {areaColor: '#dc322f'}});
 
                         <!--Current stay-->
                         if (data.live.region === name)
+                            subRegionSet.add(data.live.subregion)
                             subRegionData.push({name: data.live.subregion, itemStyle: {areaColor: '#268bd2'}});
                         for (const entry of data.visit) {
+                            if (subRegionSet.has(entry.subregion)) continue;
                             if (entry.region === name)
                                 subRegionData.push({name: entry.subregion, itemStyle: {areaColor: '#859900'}});
                         }
-
+                        console.log(subRegionData);
                         countryMapChart.setOption({
                             backgroundColor: '#002b36',
                             animation: false,
@@ -234,11 +247,13 @@
                             series: []
                         }, true);
 
+                        <!--Special scale-->
+                        if (name === 'China' || name === 'Japan')
+                            countryMapChart.setOption({geo:{aspectScale: 1.0}});
                     }).fail(function(){
                         console.log("error")
                     });
 
-                    console.log(subRegionData);
                     countryMapChart.hideLoading();
 
                 }).fail(function(){
