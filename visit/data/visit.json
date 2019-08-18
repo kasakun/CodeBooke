@@ -1,28 +1,99 @@
 {
-  "data":[
+  "home":
+    {
+      "region": "China",
+      "subregion": "Shanghai"
+    },
+  "live":
+    {
+      "region": "United States",
+      "subregion": "California"
+    },
+  "visit":[
+    {
+      "region": "Canada",
+	  "subregion": "Ontario",
+	  "year": "2018"
+    },
 	{
-	    "region" : "USA",
-	    "subregion": "California",
-	    "status": "live",
-	    "year": "2019,present"
+	  "region": "USA",
+	  "subregion": "California",
+	  "year": "2019"
 	},
 	{
-	    "region" : "Japan",
-	    "subregion": "Kyoto",
-	    "status": "travel",
-	    "year": "2019"
+	  "region": "USA",
+	  "subregion": "California",
+	  "year": "2018"
 	},
 	{
-	    "region": "China",
-	    "subregion": "Shanghai",
-	    "status": "home",
-	    "year": "2019"
+	  "region": "USA",
+	  "subregion": "Oregon",
+	  "year": "2019"
 	},
 	{
-	    "region": "China",
-	    "subregion": "Hainan",
-	    "status": "travel",
-	    "year": "2019"
-	}
-	]
+	  "region": "USA",
+	  "subregion": "Georgia",
+	  "year": "2018"
+	},
+	{
+	  "region": "USA",
+	  "subregion": "Tenasse",
+	  "year": "2018"
+	},
+	{
+	  "region": "USA",
+	  "subregion": "North Carolina",
+	  "year": "2018"
+	},
+	{
+	  "region": "USA",
+	  "subregion": "South Carolina",
+	  "year": "2018"
+	},
+	{
+	  "region": "USA",
+	  "subregion": "Arizona",
+	  "year": "2018"
+	},
+	{
+	  "region": "USA",
+	  "subregion": "Nevada",
+	  "year": "2018"
+	},
+	{
+	  "region": "Japan",
+	  "subregion": "Kyoto",
+	  "year": "2018"
+	},
+	{
+	  "region": "Japan",
+	  "subregion": "Osaka",
+	  "year": "2018"
+	},
+	{
+	  "region": "Japan",
+	  "subregion": "Tokyo",
+	  "year": "2018"
+	},
+	{
+	  "region": "China",
+	  "subregion": "Hainan",
+	  "year": "2019"
+	},
+	{
+	  "region": "China",
+	  "subregion": "Sichuan",
+	  "year": "2017"
+	},
+	{
+	  "region": "China",
+	  "subregion": "Chongqing",
+	  "year": "2017"
+	},
+    {
+	  "region": "Australia",
+	  "subregion": "Queensland",
+	  "year": "2011"
+    }
+  ]
 }

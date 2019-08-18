@@ -26,7 +26,7 @@
             // Some configuration
             var nameMap = {
                 'Iran': 'Islamic Republic of Iran',
-                'United States of America': 'USA',
+                'United States': 'USA',
                 'Democratic Republic of the Congo': 'Congo-Brazzaville',
                 'Republic of the Congo': 'Congo-Kinshasa'
             };
@@ -101,7 +101,7 @@
             var countryMapChart = echarts.init($('#country-map')[0]);
 
             worldMapChart.setOption({
-                backgroundColor: '#404a59',
+                backgroundColor: '#002b36',
                 animationDurationUpdate: 800,
                 visualMap: {
                     max: 3000,
@@ -127,53 +127,27 @@
 
             var worldGeo = worldMapChart.getModel().getSeriesByIndex(0).coordinateSystem;
 
-            var starbucksData;
-
             worldMapChart.showLoading();
-            worldMapChart.hideLoading();
-            $.getJSON("data/visit.json", function() {
-                console.log("success");
+            $.getJSON('data/visit.json', function() {
             }).done(function(data) {
-                console.log(data)
-                console.log("second success");
+                let regionData = []
+                <!--Home town-->
+                regionData.push({name: data.home.region, itemStyle: {areaColor: '#dc322f'}});
+
+                <!--Current stay-->
+                regionData.push({name: data.live.region, itemStyle: {areaColor: '#268bd2'}});
+                for (const entry of data.visit) {
+                    regionData.push({name: entry.region, itemStyle: {areaColor: '#859900'}});
+                }
+                worldMapChart.hideLoading();
+                worldMapChart.setOption ({
+                    series: [{
+                        data: regionData
+                    }]
+                });
             }).fail(function(){
                 console.log("error")
-            });;
-                    <!--// Count-->
-                    <!--var countryCount = starbucksData.reduce(function (map, obj) {-->
-                        <!--if (obj.country) {-->
-                            <!--map[obj.country] = map[obj.country] || 0;-->
-                            <!--map[obj.country] ++;-->
-                        <!--}-->
-                        <!--return map;-->
-                    <!--}, {});-->
-                    <!--var statisticsData = [];-->
-                    <!--for (var name in countryCount) {-->
-                        <!--var count = countryCount[name];-->
-                        <!--var textStyle = {-->
-                            <!--color: '#50d5d3',-->
-                            <!--fontWeight: 'bolder',-->
-                            <!--fontSize: Math.round(count / 500) + 20-->
-                        <!--};-->
-                        <!--statisticsData.push({-->
-                            <!--name: name,-->
-                            <!--value: count,-->
-                            <!--label: {-->
-                                <!--normal: {-->
-                                    <!--textStyle: textStyle,-->
-                                    <!--show: count > 100-->
-                                <!--},-->
-                                <!--emphasis: {-->
-                                    <!--show: count > 100-->
-                                <!--}-->
-                            <!--}-->
-                        <!--});-->
-                    <!--}-->
-                    <!--worldMapChart.setOption({-->
-                        <!--series: [{-->
-                            <!--data: statisticsData-->
-                        <!--}]-->
-                    <!--});-->
+            });
 
             worldMapChart.on('mouseover', function (param) {
                 $('#title').html(param.name);
@@ -204,14 +178,29 @@
                 $(countryMapChart.getDom()).fadeIn(800);
 
                 countryMapChart.showLoading();
-                $.getJSON('map/' + name + '.json')
-                    .done(function (geoJson) {
-                        countryMapChart.hideLoading();
-                        countryMapChart.resize();
+                $.getJSON('map/' + name + '.json',function(){
+                }).done(function (geoJson) {
+                    countryMapChart.resize();
+                    echarts.registerMap(name, geoJson, specialAreas[name]);
 
-                        echarts.registerMap(name, geoJson, specialAreas[name]);
+                    <!--Fetch Data-->
+                    let subRegionData = [];
+                    $.getJSON('data/visit.json', function() {
+                    }).done(function(data) {
+                        <!--Home town-->
+                        if (data.home.region === name)
+                            subRegionData.push({name: data.home.subregion, itemStyle: {areaColor: '#dc322f'}});
+
+                        <!--Current stay-->
+                        if (data.live.region === name)
+                            subRegionData.push({name: data.live.subregion, itemStyle: {areaColor: '#268bd2'}});
+                        for (const entry of data.visit) {
+                            if (entry.region === name)
+                                subRegionData.push({name: entry.subregion, itemStyle: {areaColor: '#859900'}});
+                        }
+
                         countryMapChart.setOption({
-                            backgroundColor: '#404a59',
+                            backgroundColor: '#002b36',
                             animation: false,
                             title: {
                                 text: param.name,
@@ -238,13 +227,23 @@
                                         }
                                     }
                                 },
+                                regions: subRegionData,
                                 center: specialCenterAndZoom[name] && specialCenterAndZoom[name].center,
                                 zoom: specialCenterAndZoom[name] && specialCenterAndZoom[name].zoom
                             },
                             series: []
                         }, true);
 
+                    }).fail(function(){
+                        console.log("error")
                     });
+
+                    console.log(subRegionData);
+                    countryMapChart.hideLoading();
+
+                }).fail(function(){
+                    console.log('error');
+                });
             });
 
             $('#back').click(function () {
