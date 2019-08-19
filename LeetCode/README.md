@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :287 :lollipop:**Easy**: 66 :chocolate_bar:**Medium**: 201 :birthday:**Hard**: 20
+:guardsman:**Solved** :288 :lollipop:**Easy**: 67 :chocolate_bar:**Medium**: 201 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -267,6 +267,7 @@
 |714|[Best Time to Buy Sell with Transaction Fee](./714-Best-Time-to-Buy-Sell-with-Transaction-Fee(Medium))|Medium|
 |718|[Maximum Length of Repeated Subarray](./718-Maximum-Length-of-Repeated-Subarray(Medium))|Medium|
 |721|[Accounts Merge](./721-Accounts-Merge(Medium))|Medium|
+|724|[Find Pivot Index](./724-Find-Pivot-Index(Easy))|Easy|
 |725|[Split Linked List in Parts](./725-Split-Linked-List-in-Parts(Medium))|Medium|
 |729|[My Calendar I](./729-My-Calendar-I(Medium))|Medium|
 |731|[My Calendar II](./731-My-Calendar-II(Medium))|Medium|
