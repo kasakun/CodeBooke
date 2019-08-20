@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :288 :lollipop:**Easy**: 67 :chocolate_bar:**Medium**: 201 :birthday:**Hard**: 20
+:guardsman:**Solved** :289 :lollipop:**Easy**: 68 :chocolate_bar:**Medium**: 201 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -274,6 +274,7 @@
 |738|[Monotone Increasing Digits](./738-Monotone-Increasing-Digits(Medium))|Medium|
 |763|[Partition Labels](./763-Partition-Labels(Medium))|Medium|
 |767|[Reorganize String](./767-Reorganize-String(Medium))|Medium|
+|783|[Minimum Distance Between BST](./783-Minimum-Distance-Between-BST(Easy))|Easy|
 |797|[All Paths From Source to Target](./797-All-Paths-From-Source-to-Target(Medium))|Medium|
 |799|[Champagne Tower](./799-Champagne-Tower(Medium))|Medium|
 |802|[Find Eventual Safe States](./802-Find-Eventual-Safe-States(Medium))|Medium|
