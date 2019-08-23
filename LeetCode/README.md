@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :291 :lollipop:**Easy**: 70 :chocolate_bar:**Medium**: 201 :birthday:**Hard**: 20
+:guardsman:**Solved** :292 :lollipop:**Easy**: 70 :chocolate_bar:**Medium**: 202 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -283,6 +283,7 @@
 |836|[Rectangle Overlap](./836-Rectangle-Overlap(Easy))|Easy|
 |844|[Backspace String Compare](./844-Backspace-String-Compare(Easy))|Easy|
 |845|[Longest Mountain in Array](./845-Longest-Mountain-in-Array(Medium))|Medium|
+|846|[Hands of Straights](./846-Hands-of-Straights(Medium))|Medium|
 |849|[Maximum Distance to Closest Person](./849-Maximum-Distance-to-Closest-Person(Easy))|Easy|
 |863|[All Nodes Distance K in Binary Tree](./863-All-Nodes-Distance-K-in-Binary-Tree(Medium))|Medium|
 |881|[Boats to Save People](./881-Boats-to-Save-People(Medium))|Medium|
