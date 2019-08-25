@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :292 :lollipop:**Easy**: 70 :chocolate_bar:**Medium**: 202 :birthday:**Hard**: 20
+:guardsman:**Solved** :293 :lollipop:**Easy**: 70 :chocolate_bar:**Medium**: 203 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -277,6 +277,7 @@
 |783|[Minimum Distance Between BST](./783-Minimum-Distance-Between-BST(Easy))|Easy|
 |797|[All Paths From Source to Target](./797-All-Paths-From-Source-to-Target(Medium))|Medium|
 |799|[Champagne Tower](./799-Champagne-Tower(Medium))|Medium|
+|801|[Minimum Swaps To Make Sequence Increasing](./801-Minimum-Swaps-To-Make-Sequence-Increasing(Medium))|Medium|
 |802|[Find Eventual Safe States](./802-Find-Eventual-Safe-States(Medium))|Medium|
 |813|[Largest Sum of Averages](./813-Largest-Sum-of-Averages(Medium))|Medium|
 |830|[Positions of Large Groups](./830-Positions-of-Large-Groups(Easy))|Easy|
