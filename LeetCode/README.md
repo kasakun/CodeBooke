@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :294 :lollipop:**Easy**: 71 :chocolate_bar:**Medium**: 203 :birthday:**Hard**: 20
+:guardsman:**Solved** :295 :lollipop:**Easy**: 72 :chocolate_bar:**Medium**: 203 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -279,6 +279,7 @@
 |799|[Champagne Tower](./799-Champagne-Tower(Medium))|Medium|
 |801|[Minimum Swaps To Make Sequence Increasing](./801-Minimum-Swaps-To-Make-Sequence-Increasing(Medium))|Medium|
 |802|[Find Eventual Safe States](./802-Find-Eventual-Safe-States(Medium))|Medium|
+|811|[Subdomain Visit Count](./811-Subdomain-Visit-Count(Easy))|Easy|
 |813|[Largest Sum of Averages](./813-Largest-Sum-of-Averages(Medium))|Medium|
 |830|[Positions of Large Groups](./830-Positions-of-Large-Groups(Easy))|Easy|
 |832|[Flipping an Image](./832-Flipping-an-Image(Easy))|Easy|
