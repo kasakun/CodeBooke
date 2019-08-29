@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :295 :lollipop:**Easy**: 72 :chocolate_bar:**Medium**: 203 :birthday:**Hard**: 20
+:guardsman:**Solved** :296 :lollipop:**Easy**: 73 :chocolate_bar:**Medium**: 203 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -266,6 +266,7 @@
 |704|[Binary Search](./704-Binary-Search(Easy))|Easy|
 |714|[Best Time to Buy Sell with Transaction Fee](./714-Best-Time-to-Buy-Sell-with-Transaction-Fee(Medium))|Medium|
 |718|[Maximum Length of Repeated Subarray](./718-Maximum-Length-of-Repeated-Subarray(Medium))|Medium|
+|720|[Longest Word in Dictionary](./720-Longest-Word-in-Dictionary(Easy))|Easy|
 |721|[Accounts Merge](./721-Accounts-Merge(Medium))|Medium|
 |724|[Find Pivot Index](./724-Find-Pivot-Index(Easy))|Easy|
 |725|[Split Linked List in Parts](./725-Split-Linked-List-in-Parts(Medium))|Medium|
