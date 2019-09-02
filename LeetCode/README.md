@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :297 :lollipop:**Easy**: 74 :chocolate_bar:**Medium**: 203 :birthday:**Hard**: 20
+:guardsman:**Solved** :298 :lollipop:**Easy**: 74 :chocolate_bar:**Medium**: 204 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -163,6 +163,7 @@
 |263|[Ugly Number](./263-Ugly-Number(Easy))|Easy|
 |264|[Ugly Number II](./264-Ugly-Number-II(Medium))|Medium|
 |275|[H Index II](./275-H-Index-II(Medium))|Medium|
+|277|[Find the Celebrity](./277-Find-the-Celebrity(Medium))|Medium|
 |278|[First Bad Version](./278-First-Bad-Version(Easy))|Easy|
 |279|[Perfect Squares](./279-Perfect-Squares(Medium))|Medium|
 |283|[Move Zeros](./283-Move-Zeros(Easy))|Easy|
