@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :298 :lollipop:**Easy**: 74 :chocolate_bar:**Medium**: 204 :birthday:**Hard**: 20
+:guardsman:**Solved** :299 :lollipop:**Easy**: 75 :chocolate_bar:**Medium**: 204 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -158,6 +158,7 @@
 |238|[Product of Array Except Self](./238-Product-of-Array-Except-Self(Medium))|Medium|
 |239|[Sliding Window Maximum](./239-Sliding-Window-Maximum(Hard))|Hard|
 |241|[Different Ways to Add Parentheses](./241-Different-Ways-to-Add-Parentheses(Medium))|Medium|
+|246|[Strobogrammatic Number](./246-Strobogrammatic-Number(Easy))|Easy|
 |257|[Binary Tree Paths](./257-Binary-Tree-Paths(Easy))|Easy|
 |260|[Single Number III](./260-Single-Number-III(Medium))|Medium|
 |263|[Ugly Number](./263-Ugly-Number(Easy))|Easy|
