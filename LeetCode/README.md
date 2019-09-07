@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :301 :lollipop:**Easy**: 75 :chocolate_bar:**Medium**: 206 :birthday:**Hard**: 20
+:guardsman:**Solved** :302 :lollipop:**Easy**: 75 :chocolate_bar:**Medium**: 207 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -195,6 +195,7 @@
 |349|[Intersection of Two Arrays](./349-Intersection-of-Two-Arrays(Easy))|Easy|
 |357|[Count Numbers with Unique Digits](./357-Count-Numbers-with-Unique-Digits(Medium))|Medium|
 |368|[Largest Divisible Subset](./368-Largest-Divisible-Subset(Medium))|Medium|
+|370|[Range Addition](./370-Range-Addition(Medium))|Medium|
 |373|[Find K Pairs with Smallest Sums](./373-Find-K-Pairs-with-Smallest-Sums(Medium))|Medium|
 |376|[Wiggle Subsequence](./376-Wiggle-Subsequence(Medium))|Medium|
 |377|[Combination Sum IV](./377-Combination-Sum-IV(Medium))|Medium|
