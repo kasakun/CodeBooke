@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :305 :lollipop:**Easy**: 76 :chocolate_bar:**Medium**: 209 :birthday:**Hard**: 20
+:guardsman:**Solved** :306 :lollipop:**Easy**: 76 :chocolate_bar:**Medium**: 210 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -194,6 +194,7 @@
 |343|[Integer Break](./343-Integer-Break(Medium))|Medium|
 |344|[Reverse String](./344-Reverse-String(Easy))|Easy|
 |347|[Top K Frequent Elements](./347-Top-K-Frequent-Elements(Medium))|Medium|
+|348|[Design Tic Tac Toe](./348-Design-Tic-Tac-Toe(Medium))|Medium|
 |349|[Intersection of Two Arrays](./349-Intersection-of-Two-Arrays(Easy))|Easy|
 |357|[Count Numbers with Unique Digits](./357-Count-Numbers-with-Unique-Digits(Medium))|Medium|
 |364|[Nested List Weight Sum II](./364-Nested-List-Weight-Sum-II(Medium))|Medium|
