@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :306 :lollipop:**Easy**: 76 :chocolate_bar:**Medium**: 210 :birthday:**Hard**: 20
+:guardsman:**Solved** :307 :lollipop:**Easy**: 77 :chocolate_bar:**Medium**: 210 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -305,6 +305,7 @@
 |931|[Minimum Falling Path Sum](./931-Minimum-Falling-Path-Sum(Medium))|Medium|
 |939|[Minimum Area Rectangle](./939-Minimum-Area-Rectangle(Medium))|Medium|
 |947|[Most Stones Removed with Same Row or Column](./947-Most-Stones-Removed-with-Same-Row-or-Column(Medium))|Medium|
+|953|[Verifying an Alien Dictionary](./953-Verifying-an-Alien-Dictionary(Easy))|Easy|
 |973|[K Closest Point to Origin](./973-K-Closest-Point-to-Origin(Medium))|Medium|
 |974|[Subarray Sums Divisible by K](./974-Subarray-Sums-Divisible-by-K(Medium))|Medium|
 |993|[Cousins in Binary Tree](./993-Cousins-in-Binary-Tree(Easy))|Easy|
