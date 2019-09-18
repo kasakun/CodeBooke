@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :309 :lollipop:**Easy**: 78 :chocolate_bar:**Medium**: 211 :birthday:**Hard**: 20
+:guardsman:**Solved** :310 :lollipop:**Easy**: 79 :chocolate_bar:**Medium**: 211 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -194,6 +194,7 @@
 |341|[Flatten Nested List Iterator](./341-Flatten-Nested-List-Iterator(Medium))|Medium|
 |343|[Integer Break](./343-Integer-Break(Medium))|Medium|
 |344|[Reverse String](./344-Reverse-String(Easy))|Easy|
+|346|[Moving Average from Data Stream](./346-Moving-Average-from-Data-Stream(Easy))|Easy|
 |347|[Top K Frequent Elements](./347-Top-K-Frequent-Elements(Medium))|Medium|
 |348|[Design Tic Tac Toe](./348-Design-Tic-Tac-Toe(Medium))|Medium|
 |349|[Intersection of Two Arrays](./349-Intersection-of-Two-Arrays(Easy))|Easy|
