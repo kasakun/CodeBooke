@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :310 :lollipop:**Easy**: 79 :chocolate_bar:**Medium**: 211 :birthday:**Hard**: 20
+:guardsman:**Solved** :311 :lollipop:**Easy**: 80 :chocolate_bar:**Medium**: 211 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -316,3 +316,4 @@
 |1004|[Max Consecutive Ones III](./1004-Max-Consecutive-Ones-III(Medium))|Medium|
 |1014|[Best Sightseeing Pair](./1014-Best-Sightseeing-Pair(Medium))|Medium|
 |1043|[Partition Array for Maximum Sum](./1043-Partition-Array-for-Maximum-Sum(Medium))|Medium|
+|1119|[Remove Vowels from a String](./1119-Remove-Vowels-from-a-String(Easy))|Easy|
