@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :315 :lollipop:**Easy**: 84 :chocolate_bar:**Medium**: 211 :birthday:**Hard**: 20
+:guardsman:**Solved** :316 :lollipop:**Easy**: 85 :chocolate_bar:**Medium**: 211 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -191,6 +191,7 @@
 |334|[Increasing Triplet Subsequence](./334-Increasing-Triplet-Subsequence(Medium))|Medium|
 |337|[House Robber III](./337-House-Robber-III(Medium))|Medium|
 |338|[Counting Bits](./338-Counting-Bits(Medium))|Medium|
+|339|[Nested List Weight Sum](./339-Nested-List-Weight-Sum(Easy))|Easy|
 |341|[Flatten Nested List Iterator](./341-Flatten-Nested-List-Iterator(Medium))|Medium|
 |343|[Integer Break](./343-Integer-Break(Medium))|Medium|
 |344|[Reverse String](./344-Reverse-String(Easy))|Easy|
