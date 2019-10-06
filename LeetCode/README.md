@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :320 :lollipop:**Easy**: 89 :chocolate_bar:**Medium**: 211 :birthday:**Hard**: 20
+:guardsman:**Solved** :321 :lollipop:**Easy**: 90 :chocolate_bar:**Medium**: 211 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -270,6 +270,7 @@
 |621|[Task Scheduler](./621-Task-Scheduler(Medium))|Medium|
 |624|[Maximum Distance in Arrays](./624-Maximum-Distance-in-Arrays(Easy))|Easy|
 |641|[Design Circular Deque](./641-Design-Circular-Deque(Medium))|Medium|
+|643|[Maximum Average Subarray I](./643-Maximum-Average-Subarray-I(Easy))|Easy|
 |652|[Find Duplicate Subtree](./652-Find-Duplicate-Subtree(Medium))|Medium|
 |669|[Trim a Binary Search Tree](./669-Trim-a-Binary-Search-Tree(Easy))|Easy|
 |693|[Binary Number with Alternating Bits](./693-Binary-Number-with-Alternating-Bits(Easy))|Easy|
