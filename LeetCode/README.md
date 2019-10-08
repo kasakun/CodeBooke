@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :322 :lollipop:**Easy**: 90 :chocolate_bar:**Medium**: 212 :birthday:**Hard**: 20
+:guardsman:**Solved** :323 :lollipop:**Easy**: 90 :chocolate_bar:**Medium**: 213 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -273,6 +273,7 @@
 |643|[Maximum Average Subarray I](./643-Maximum-Average-Subarray-I(Easy))|Easy|
 |651|[4 Keys Keyboard](./651-4-Keys-Keyboard(Medium))|Medium|
 |652|[Find Duplicate Subtree](./652-Find-Duplicate-Subtree(Medium))|Medium|
+|663|[Equal Tree Partition](./663-Equal-Tree-Partition(Medium))|Medium|
 |669|[Trim a Binary Search Tree](./669-Trim-a-Binary-Search-Tree(Easy))|Easy|
 |693|[Binary Number with Alternating Bits](./693-Binary-Number-with-Alternating-Bits(Easy))|Easy|
 |695|[Max Area of Island](./695-Max-Area-of-Island(Medium))|Medium|
