@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :323 :lollipop:**Easy**: 90 :chocolate_bar:**Medium**: 213 :birthday:**Hard**: 20
+:guardsman:**Solved** :324 :lollipop:**Easy**: 90 :chocolate_bar:**Medium**: 214 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -293,6 +293,7 @@
 |731|[My Calendar II](./731-My-Calendar-II(Medium))|Medium|
 |734|[Sentence Similarity](./734-Sentence-Similarity(Easy))|Easy|
 |738|[Monotone Increasing Digits](./738-Monotone-Increasing-Digits(Medium))|Medium|
+|750|[Number of Corner Rectangles](./750-Number-of-Corner-Rectangles(Medium))|Medium|
 |754|[Reach a Number](./754-Reach-a-Number(Easy))|Easy|
 |763|[Partition Labels](./763-Partition-Labels(Medium))|Medium|
 |767|[Reorganize String](./767-Reorganize-String(Medium))|Medium|
