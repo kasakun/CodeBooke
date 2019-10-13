@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :324 :lollipop:**Easy**: 90 :chocolate_bar:**Medium**: 214 :birthday:**Hard**: 20
+:guardsman:**Solved** :325 :lollipop:**Easy**: 90 :chocolate_bar:**Medium**: 215 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -201,6 +201,7 @@
 |348|[Design Tic Tac Toe](./348-Design-Tic-Tac-Toe(Medium))|Medium|
 |349|[Intersection of Two Arrays](./349-Intersection-of-Two-Arrays(Easy))|Easy|
 |357|[Count Numbers with Unique Digits](./357-Count-Numbers-with-Unique-Digits(Medium))|Medium|
+|361|[Bomb Enemy](./361-Bomb-Enemy(Medium))|Medium|
 |364|[Nested List Weight Sum II](./364-Nested-List-Weight-Sum-II(Medium))|Medium|
 |368|[Largest Divisible Subset](./368-Largest-Divisible-Subset(Medium))|Medium|
 |370|[Range Addition](./370-Range-Addition(Medium))|Medium|
