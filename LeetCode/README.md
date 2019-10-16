@@ -2,7 +2,7 @@
 
 ## Problems
 
-:guardsman:**Solved** :325 :lollipop:**Easy**: 90 :chocolate_bar:**Medium**: 215 :birthday:**Hard**: 20
+:guardsman:**Solved** :326 :lollipop:**Easy**: 90 :chocolate_bar:**Medium**: 216 :birthday:**Hard**: 20
 
 |#|Problems|Level|
 |---|----------|---|
@@ -243,6 +243,7 @@
 |470|[Implement Rand10 Using Rand7](./470-Implement-Rand10-Using-Rand7(Medium))|Medium|
 |473|[Matchsticks to Square](./473-Matchsticks-to-Square(Medium))|Medium|
 |474|[Ones and Zeros](./474-Ones-and-Zeros(Medium))|Medium|
+|490|[The Maze](./490-The-Maze(Medium))|Medium|
 |491|[Increasing Subsequences](./491-Increasing-Subsequences(Medium))|Medium|
 |494|[Target Sum](./494-Target-Sum(Medium))|Medium|
 |498|[Diagonal Traverse](./498-Diagonal-Traverse(Medium))|Medium|
